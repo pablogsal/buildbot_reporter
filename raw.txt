@@ -1,0 +1,3040 @@
+Tools\buildbot\test.bat -x64 -j2 -R 3:3 -u-cpu -j4
+ in dir D:\buildarea\2.7.ware-win81-release.refleak\build (timeout 12000 secs)
+ watching logfiles {}
+ argv: [b'Tools\\buildbot\\test.bat', b'-x64', b'-j2', b'-R', b'3:3', b'-u-cpu', b'-j4']
+ environment:
+  ALLUSERSPROFILE=C:\ProgramData
+  APPDATA=C:\Users\buildslave\AppData\Roaming
+  COMMONPROGRAMFILES=C:\Program Files\Common Files
+  COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+  COMMONPROGRAMW6432=C:\Program Files\Common Files
+  COMPUTERNAME=WIN81BB
+  COMSPEC=C:\Windows\system32\cmd.exe
+  FP_NO_HOST_CHECK=NO
+  HOMEDRIVE=C:
+  HOMEPATH=\Users\buildslave
+  LOCALAPPDATA=C:\Users\buildslave\AppData\Local
+  LOGONSERVER=\\WIN81BB
+  NUMBER_OF_PROCESSORS=2
+  OS=Windows_NT
+  PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseHg\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\Git\bin;C:\Program Files\Microsoft\Web Platform Installer\;c:\users\buildslave\buildworker3\venv\lib\site-packages\pywin32_system32;c:\users\buildslave\buildworker3\venv\lib\site-packages\pywin32_system32
+  PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  PROCESSOR_ARCHITECTURE=AMD64
+  PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 2, GenuineIntel
+  PROCESSOR_LEVEL=6
+  PROCESSOR_REVISION=3f02
+  PROGRAMDATA=C:\ProgramData
+  PROGRAMFILES=C:\Program Files
+  PROGRAMFILES(X86)=C:\Program Files (x86)
+  PROGRAMW6432=C:\Program Files
+  PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+  PUBLIC=C:\Users\Public
+  PWD=D:\buildarea\2.7.ware-win81-release.refleak\build
+  SYSTEMDRIVE=C:
+  SYSTEMROOT=C:\Windows
+  TEMP=D:\temp
+  TMP=D:\temp
+  TMPDIR=D:\temp
+  USERDOMAIN=WIN81BB
+  USERDOMAIN_ROAMINGPROFILE=WIN81BB
+  USERNAME=buildslave
+  USERPROFILE=C:\Users\buildslave
+  VS100COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+  VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+  VS90COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+  WINDIR=C:\Windows
+ using PTY: False
+
+D:\buildarea\2.7.ware-win81-release.refleak\build>call "D:\buildarea\2.7.ware-win81-release.refleak\build\Tools\buildbot\..\..\PCbuild\rt.bat" -q -d -x64 -uall -rwW --slowest  -j2 -R 3:3 -u-cpu -j4 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build>"D:\buildarea\2.7.ware-win81-release.refleak\build\PCbuild\amd64\python_d"  -Wd -3 -E -tt "D:\buildarea\2.7.ware-win81-release.refleak\build\PCbuild\..\Lib\test\regrtest.py"  -uall -rwW --slowest -j2 -R 3:3 -u-cpu -j4 
+Warning: bpo-31731: test_io hangs with --huntrleaks: exclude the test
+== CPython 2.7.16+ (heads/2.7:8ab24b2, May 9 2019, 00:00:35) [MSC v.1500 64 bit (AMD64)]
+==   Windows-8-6.2.9200-SP0 little-endian
+==   D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_1704
+== CPU count: 2
+Using random seed 5955058
+Run tests in parallel using 4 child processes
+0:00:02 [  1/403] test_cgi passed
+0:00:02 [  2/403] test_future5 passed
+0:00:02 [  3/403] test_hotshot passed
+0:00:02 [  4/403] test_socketserver passed
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+0:00:03 [  5/403] test_netrc passed
+beginning 6 repetitions
+123456
+......
+0:00:04 [  6/403] test_userlist passed
+beginning 6 repetitions
+123456
+......
+0:00:31 [  7/403] test_multibytecodec passed
+beginning 6 repetitions
+123456
+......
+0:00:31 [  8/403] test_scope passed
+beginning 6 repetitions
+123456
+......
+0:00:31 [  9/403] test_profile passed
+beginning 6 repetitions
+123456
+......
+0:00:32 [ 10/403] test_threadsignals skipped
+test_threadsignals skipped -- Can't test signal on win32
+0:00:32 [ 11/403] test_heapq passed
+0:00:32 [ 12/403] test_argparse passed
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+0:00:32 [ 13/403] test_types passed
+beginning 6 repetitions
+123456
+......
+0:00:32 [ 14/403] test_kqueue skipped
+test_kqueue skipped -- test works only on BSD
+0:00:34 [ 15/403] test_genericpath passed
+beginning 6 repetitions
+123456
+......
+0:00:34 [ 16/403] test_repr passed
+beginning 6 repetitions
+123456
+......
+0:00:35 [ 17/403] test_xmllib passed
+beginning 6 repetitions
+123456
+......
+0:00:35 [ 18/403] test_dbm skipped
+test_dbm skipped -- No module named dbm
+0:00:36 [ 19/403] test_parser passed
+beginning 6 repetitions
+123456
+......
+0:00:36 [ 20/403] test_openpty skipped
+test_openpty skipped -- No openpty() available.
+0:00:37 [ 21/403] test_print passed
+beginning 6 repetitions
+123456
+......
+0:00:38 [ 22/403] test_whichdb passed
+beginning 6 repetitions
+123456
+......
+0:00:42 [ 23/403] test_inspect passed
+0:00:42 [ 24/403] test_struct passed
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+0:00:42 [ 25/403] test_locale passed
+beginning 6 repetitions
+123456
+......
+0:00:43 [ 26/403] test_ttk_textonly passed
+beginning 6 repetitions
+123456
+......
+0:00:43 [ 27/403] test_py3kwarn passed
+beginning 6 repetitions
+123456
+......
+0:00:44 [ 28/403] test_contextlib passed
+beginning 6 repetitions
+123456
+......
+0:01:02 [ 29/403] test_traceback passed
+beginning 6 repetitions
+123456
+......
+0:01:02 [ 30/403] test_global passed
+beginning 6 repetitions
+123456
+......
+0:01:19 [ 31/403] test_codecmaps_jp passed (41 sec 736 ms) -- running: test_socket (35 sec 704 ms), test_urllib2_localnet (36 sec 610 ms)
+beginning 6 repetitions
+123456
+......
+0:01:20 [ 32/403] test_pty skipped -- running: test_socket (35 sec 954 ms), test_urllib2_localnet (36 sec 860 ms)
+test_pty skipped -- No module named fcntl
+0:01:20 [ 33/403] test_abc passed -- running: test_socket (36 sec 313 ms), test_urllib2_localnet (37 sec 219 ms)
+beginning 6 repetitions
+123456
+......
+running: test_subprocess (30 sec 79 ms), test_socket (1 min 6 sec), test_urllib2_localnet (1 min 7 sec), test_multiprocessing (48 sec 174 ms)
+0:02:11 [ 34/403] test_socket passed (1 min 26 sec) -- running: test_subprocess (50 sec 642 ms), test_urllib2_localnet (1 min 27 sec), test_multiprocessing (1 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:02:11 [ 35/403] test_sunaudiodev skipped -- running: test_subprocess (51 sec 17 ms), test_urllib2_localnet (1 min 28 sec), test_multiprocessing (1 min 9 sec)
+test_sunaudiodev skipped -- No module named sunaudiodev
+0:02:11 [ 36/403] test_undocumented_details passed -- running: test_subprocess (51 sec 252 ms), test_urllib2_localnet (1 min 28 sec), test_multiprocessing (1 min 9 sec)
+beginning 6 repetitions
+123456
+......
+0:02:11 [ 37/403] test_al skipped -- running: test_subprocess (51 sec 423 ms), test_urllib2_localnet (1 min 28 sec), test_multiprocessing (1 min 9 sec)
+test_al skipped -- No module named al
+0:02:23 [ 38/403] test_descr passed -- running: test_subprocess (1 min 3 sec), test_urllib2_localnet (1 min 40 sec), test_multiprocessing (1 min 21 sec)
+beginning 6 repetitions
+123456
+......
+0:02:24 [ 39/403] test_codeop passed -- running: test_subprocess (1 min 3 sec), test_urllib2_localnet (1 min 40 sec), test_multiprocessing (1 min 21 sec)
+beginning 6 repetitions
+123456
+......
+0:02:24 [ 40/403] test_nis skipped -- running: test_subprocess (1 min 3 sec), test_urllib2_localnet (1 min 41 sec), test_multiprocessing (1 min 21 sec)
+test_nis skipped -- No module named nis
+0:02:38 [ 41/403] test_subprocess passed (1 min 17 sec) -- running: test_urllib2_localnet (1 min 55 sec), test_multiprocessing (1 min 36 sec)
+beginning 6 repetitions
+123456
+    a DOS box should flash briefly ...
+.    a DOS box should flash briefly ...
+.    a DOS box should flash briefly ...
+.    a DOS box should flash briefly ...
+.    a DOS box should flash briefly ...
+.    a DOS box should flash briefly ...
+.
+0:02:42 [ 42/403] test_urllib2_localnet passed (1 min 58 sec) -- running: test_multiprocessing (1 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:02:42 [ 43/403] test_turtle passed -- running: test_multiprocessing (1 min 40 sec)
+beginning 6 repetitions
+123456
+......
+0:02:44 [ 44/403] test_urlparse passed -- running: test_multiprocessing (1 min 41 sec)
+beginning 6 repetitions
+123456
+......
+0:02:47 [ 45/403] test_dis passed -- running: test_multiprocessing (1 min 44 sec)
+beginning 6 repetitions
+123456
+......
+0:02:48 [ 46/403] test_robotparser passed -- running: test_multiprocessing (1 min 46 sec)
+beginning 6 repetitions
+123456
+......
+0:02:50 [ 47/403] test_sqlite passed -- running: test_multiprocessing (1 min 47 sec)
+beginning 6 repetitions
+123456
+......
+0:02:50 [ 48/403] test_functools passed -- running: test_multiprocessing (1 min 48 sec)
+beginning 6 repetitions
+123456
+......
+0:02:52 [ 49/403] test_longexp passed -- running: test_multiprocessing (1 min 49 sec)
+beginning 6 repetitions
+123456
+......
+0:02:52 [ 50/403] test_signal passed -- running: test_multiprocessing (1 min 50 sec)
+beginning 6 repetitions
+123456
+......
+0:02:53 [ 51/403] test_strptime passed -- running: test_multiprocessing (1 min 50 sec)
+beginning 6 repetitions
+123456
+......
+0:02:53 [ 52/403] test_pipes skipped -- running: test_multiprocessing (1 min 51 sec)
+test_pipes skipped -- pipes module only works on posix
+0:02:54 [ 53/403] test_csv passed -- running: test_multiprocessing (1 min 52 sec)
+beginning 6 repetitions
+123456
+......
+0:03:08 [ 54/403] test_logging passed -- running: test_ssl (30 sec 456 ms), test_multiprocessing (2 min 6 sec)
+beginning 6 repetitions
+123456
+......
+0:03:14 [ 55/403] test_tuple passed -- running: test_ssl (36 sec 158 ms), test_multiprocessing (2 min 12 sec)
+beginning 6 repetitions
+123456
+......
+0:03:17 [ 56/403/1] test_ssl failed -- running: test_multiprocessing (2 min 15 sec)
+beginning 6 repetitions
+123456
+test test_ssl failed -- multiple errors occurred; run in verbose mode for details
+0:03:18 [ 57/403/1] test_tempfile passed -- running: test_multiprocessing (2 min 16 sec)
+beginning 6 repetitions
+123456
+......
+0:03:19 [ 58/403/1] test_descrtut passed -- running: test_multiprocessing (2 min 16 sec)
+beginning 6 repetitions
+123456
+......
+0:03:19 [ 59/403/1] test_gl skipped -- running: test_multiprocessing (2 min 17 sec)
+test_gl skipped -- No module named gl
+0:03:21 [ 60/403/1] test_site passed -- running: test_multiprocessing (2 min 18 sec)
+beginning 6 repetitions
+123456
+......
+0:03:21 [ 61/403/1] test_shutil passed -- running: test_multiprocessing (2 min 19 sec)
+beginning 6 repetitions
+123456
+......
+0:03:22 [ 62/403/1] test_bisect passed -- running: test_multiprocessing (2 min 19 sec)
+beginning 6 repetitions
+123456
+......
+0:03:22 [ 63/403/1] test_stat passed -- running: test_multiprocessing (2 min 20 sec)
+beginning 6 repetitions
+123456
+......
+0:03:22 [ 64/403/1] test_poll skipped -- running: test_multiprocessing (2 min 20 sec)
+test_poll skipped -- select.poll not defined -- skipping test_poll
+0:03:23 [ 65/403/1] test_int_literal passed -- running: test_multiprocessing (2 min 20 sec)
+beginning 6 repetitions
+123456
+......
+0:03:23 [ 66/403/1] test_mimetools passed -- running: test_multiprocessing (2 min 21 sec)
+beginning 6 repetitions
+123456
+......
+0:03:24 [ 67/403/1] test_threaded_import passed -- running: test_httpservers (30 sec 657 ms), test_multiprocessing (2 min 21 sec)
+beginning 6 repetitions
+123456
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.
+0:03:24 [ 68/403/1] test_httpservers passed (30 sec 797 ms) -- running: test_multiprocessing (2 min 22 sec)
+beginning 6 repetitions
+123456
+......
+0:03:24 [ 69/403/1] test_ioctl skipped -- running: test_multiprocessing (2 min 22 sec)
+test_ioctl skipped -- No module named fcntl
+0:03:29 [ 70/403/1] test_pep277 passed -- running: test_multiprocessing (2 min 27 sec)
+beginning 6 repetitions
+123456
+......
+0:03:33 [ 71/403/1] test_pydoc passed -- running: test_multiprocessing (2 min 31 sec)
+beginning 6 repetitions
+123456
+......
+0:03:33 [ 72/403/1] test_imgfile skipped -- running: test_multiprocessing (2 min 31 sec)
+test_imgfile skipped -- No module named imgfile
+0:03:35 [ 73/403/1] test_tokenize passed -- running: test_multiprocessing (2 min 33 sec)
+beginning 6 repetitions
+123456
+......
+0:03:35 [ 74/403/1] test_zipfile64 skipped (resource denied) -- running: test_multiprocessing (2 min 33 sec)
+test_zipfile64 skipped -- test requires loads of disk-space bytes and a long time to run
+0:03:38 [ 75/403/1] test_urllib passed -- running: test_multiprocessing (2 min 36 sec)
+beginning 6 repetitions
+123456
+......
+0:03:39 [ 76/403/1] test_importlib passed -- running: test_multiprocessing (2 min 36 sec)
+beginning 6 repetitions
+123456
+......
+0:03:39 [ 77/403/1] test_mimetypes passed -- running: test_multiprocessing (2 min 37 sec)
+beginning 6 repetitions
+123456
+......
+0:03:40 [ 78/403/1] test_unary passed -- running: test_multiprocessing (2 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:03:41 [ 79/403/1] test_ntpath passed -- running: test_multiprocessing (2 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:03:41 [ 80/403/1] test_decorators passed -- running: test_multiprocessing (2 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:03:51 [ 81/403/1] test_modulefinder passed -- running: test_multiprocessing (2 min 48 sec)
+0:03:51 [ 82/403/1] test_string passed -- running: test_multiprocessing (2 min 48 sec)
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+0:03:51 [ 83/403/1] test_sundry passed -- running: test_multiprocessing (2 min 49 sec)
+beginning 6 repetitions
+123456
+......
+0:03:57 [ 84/403/1] test_hash passed -- running: test_multiprocessing (2 min 55 sec)
+beginning 6 repetitions
+123456
+......
+0:04:11 [ 85/403/1] test_nntplib passed -- running: test_multiprocessing (3 min 9 sec)
+beginning 6 repetitions
+123456
+......
+0:04:11 [ 86/403/1] test_cmd passed -- running: test_multiprocessing (3 min 9 sec)
+beginning 6 repetitions
+123456
+......
+0:04:12 [ 87/403/1] test_setcomps passed -- running: test_multiprocessing (3 min 9 sec)
+beginning 6 repetitions
+123456
+......
+0:04:16 [ 88/403/1] test_timeout passed -- running: test_multiprocessing (3 min 13 sec)
+beginning 6 repetitions
+123456
+......
+0:04:16 [ 89/403/1] test_getargs passed -- running: test_multiprocessing (3 min 13 sec)
+beginning 6 repetitions
+123456
+......
+0:04:16 [ 90/403/1] test_grp skipped -- running: test_multiprocessing (3 min 14 sec)
+test_grp skipped -- No module named grp
+0:04:20 [ 91/403/1] test_cmd_line passed -- running: test_multiprocessing (3 min 18 sec)
+beginning 6 repetitions
+123456
+......
+0:04:33 [ 92/403/1] test_gc passed -- running: test_mmap (41 sec 841 ms), test_multiprocessing (3 min 30 sec)
+beginning 6 repetitions
+123456
+......
+0:04:36 [ 93/403/1] test_exceptions passed -- running: test_mmap (45 sec 232 ms), test_multiprocessing (3 min 34 sec)
+beginning 6 repetitions
+123456
+......
+running: test_docxmlrpc (30 sec 25 ms), test_mmap (1 min 15 sec), test_file2k (49 sec 588 ms), test_multiprocessing (4 min 4 sec)
+0:05:20 [ 94/403/1] test_multiprocessing passed (4 min 17 sec) -- running: test_docxmlrpc (44 sec 182 ms), test_mmap (1 min 29 sec), test_file2k (1 min 3 sec)
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\multiprocessing\pool.py:117: DeprecationWarning: can't pickle function objects
+  put((job, i, result))
+beginning 6 repetitions
+123456
+......
+0:05:31 [ 95/403/1] test_collections passed -- running: test_docxmlrpc (55 sec 57 ms), test_mmap (1 min 40 sec), test_file2k (1 min 14 sec)
+beginning 6 repetitions
+123456
+......
+0:05:31 [ 96/403/1] test_copy_reg passed -- running: test_docxmlrpc (55 sec 402 ms), test_mmap (1 min 40 sec), test_file2k (1 min 14 sec)
+beginning 6 repetitions
+123456
+......
+0:05:32 [ 97/403/1] test_import_magic passed -- running: test_docxmlrpc (56 sec 448 ms), test_mmap (1 min 41 sec), test_file2k (1 min 16 sec)
+beginning 6 repetitions
+123456
+......
+0:05:34 [ 98/403/1] test_docxmlrpc passed (58 sec 89 ms) -- running: test_mmap (1 min 43 sec), test_file2k (1 min 17 sec)
+beginning 6 repetitions
+123456
+......
+0:05:35 [ 99/403/1] test_unicode_file passed -- running: test_mmap (1 min 43 sec), test_file2k (1 min 18 sec)
+beginning 6 repetitions
+123456
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\shutil.py:78: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  os.path.normcase(os.path.abspath(dst)))
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\shutil.py:78: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  os.path.normcase(os.path.abspath(dst)))
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\shutil.py:78: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  os.path.normcase(os.path.abspath(dst)))
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\shutil.py:78: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  os.path.normcase(os.path.abspath(dst)))
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\shutil.py:78: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  os.path.normcase(os.path.abspath(dst)))
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\shutil.py:78: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  os.path.normcase(os.path.abspath(dst)))
+.
+0:05:35 [100/403/1] test_aepack skipped -- running: test_mmap (1 min 44 sec), test_file2k (1 min 18 sec)
+test_aepack skipped -- No module named aetypes
+0:05:47 [101/403/1] test_file2k passed (1 min 30 sec) -- running: test_mmap (1 min 56 sec)
+beginning 6 repetitions
+123456
+......
+0:05:48 [102/403/1] test_difflib passed -- running: test_mmap (1 min 57 sec)
+beginning 6 repetitions
+123456
+......
+0:05:48 [103/403/1] test_wait3 skipped -- running: test_mmap (1 min 57 sec)
+test_wait3 skipped -- os.fork not defined -- skipping test_wait3
+0:05:51 [104/403/1] test_sys passed -- running: test_mmap (2 min 712 ms)
+beginning 6 repetitions
+123456
+......
+0:05:53 [105/403/1] test_ast passed -- running: test_mmap (2 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:05:53 [106/403/1] test_readline skipped -- running: test_mmap (2 min 2 sec)
+test_readline skipped -- No module named readline
+0:05:58 [107/403/1] test_xmlrpc passed -- running: test_mmap (2 min 7 sec)
+beginning 6 repetitions
+123456
+......
+0:06:00 [108/403/1] test_bytes passed -- running: test_mmap (2 min 9 sec)
+beginning 6 repetitions
+123456
+......
+0:06:00 [109/403/1] test_macos skipped -- running: test_mmap (2 min 9 sec)
+test_macos skipped -- No module named MacOS
+0:06:01 [110/403/1] test_crypt skipped -- running: test_mmap (2 min 9 sec)
+test_crypt skipped -- No module named crypt
+0:06:02 [111/403/1] test_bdb passed -- running: test_mmap (2 min 10 sec)
+beginning 6 repetitions
+123456
+......
+0:06:02 [112/403/1] test_softspace passed -- running: test_mmap (2 min 11 sec)
+beginning 6 repetitions
+123456
+......
+0:06:20 [113/403/1] test_asyncore passed -- running: test_mmap (2 min 29 sec)
+beginning 6 repetitions
+123456
+......
+0:06:30 [114/403/1] test_imaplib passed (31 sec 454 ms) -- running: test_decimal (36 sec 672 ms), test_mmap (2 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:06:45 [115/403/1] test_strtod passed -- running: test_decimal (52 sec 188 ms), test_mmap (2 min 54 sec)
+beginning 6 repetitions
+123456
+......
+0:06:46 [116/403/1] test_bigaddrspace passed -- running: test_decimal (52 sec 500 ms), test_mmap (2 min 54 sec)
+beginning 6 repetitions
+123456
+......
+0:06:46 [117/403/1] test_wait4 skipped -- running: test_decimal (52 sec 657 ms), test_mmap (2 min 55 sec)
+test_wait4 skipped -- module 'os' has no attribute 'fork'
+0:06:50 [118/403/1] test_complex passed -- running: test_decimal (56 sec 876 ms), test_mmap (2 min 59 sec)
+beginning 6 repetitions
+123456
+......
+0:06:55 [119/403/1] test_mutants passed -- running: test_decimal (1 min 1 sec), test_mmap (3 min 3 sec), test_tarfile (34 sec 79 ms)
+beginning 6 repetitions
+123456
+......
+0:07:14 [120/403/1] test_trace passed -- running: test_decimal (1 min 20 sec), test_mmap (3 min 22 sec), test_tarfile (53 sec 189 ms)
+beginning 6 repetitions
+123456
+......
+0:07:14 [121/403/1] test_resource skipped -- running: test_decimal (1 min 20 sec), test_mmap (3 min 23 sec), test_tarfile (53 sec 298 ms)
+test_resource skipped -- No module named resource
+0:07:14 [122/403/1] test_dictviews passed -- running: test_decimal (1 min 20 sec), test_mmap (3 min 23 sec), test_tarfile (53 sec 673 ms)
+beginning 6 repetitions
+123456
+......
+0:07:14 [123/403/1] test_binop passed -- running: test_decimal (1 min 21 sec), test_mmap (3 min 23 sec), test_tarfile (53 sec 923 ms)
+beginning 6 repetitions
+123456
+......
+running: test_decimal (1 min 51 sec), test_mmap (3 min 53 sec), test_tarfile (1 min 23 sec), test_itertools (30 sec 48 ms)
+0:07:52 [124/403/1] test_decimal passed (1 min 58 sec) -- running: test_mmap (4 min 1 sec), test_tarfile (1 min 31 sec), test_itertools (37 sec 470 ms)
+beginning 6 repetitions
+123456
+......
+0:07:53 [125/403/1] test_weakset passed -- running: test_mmap (4 min 1 sec), test_tarfile (1 min 32 sec), test_itertools (38 sec 188 ms)
+beginning 6 repetitions
+123456
+......
+0:07:53 [126/403/1] test_platform passed -- running: test_mmap (4 min 2 sec), test_tarfile (1 min 32 sec), test_itertools (38 sec 720 ms)
+beginning 6 repetitions
+123456
+......
+0:07:53 [127/403/1] test_sha passed -- running: test_mmap (4 min 2 sec), test_tarfile (1 min 32 sec), test_itertools (39 sec 95 ms)
+beginning 6 repetitions
+123456
+......
+0:08:02 [128/403/1] test_tarfile passed (1 min 40 sec) -- running: test_mmap (4 min 10 sec), test_itertools (47 sec 345 ms)
+beginning 6 repetitions
+123456
+......
+0:08:16 [129/403/1] test_mmap passed (4 min 25 sec) -- running: test_itertools (1 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:08:17 [130/403/1] test_gzip passed -- running: test_itertools (1 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:08:22 [131/403/1] test___all__ passed -- running: test_itertools (1 min 7 sec)
+beginning 6 repetitions
+123456
+......
+0:08:22 [132/403/1] test_pep247 passed -- running: test_itertools (1 min 7 sec)
+beginning 6 repetitions
+123456
+......
+0:08:22 [133/403/1] test_new passed -- running: test_itertools (1 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:08:23 [134/403/1] test_dircache passed -- running: test_itertools (1 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:08:23 [135/403/1] test_xdrlib passed -- running: test_itertools (1 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:08:35 [136/403/1] test_itertools passed (1 min 20 sec) -- running: test_threading (41 sec 204 ms)
+beginning 6 repetitions
+123456
+......
+0:08:35 [137/403/1] test_iter passed -- running: test_threading (41 sec 908 ms)
+beginning 6 repetitions
+123456
+......
+0:08:36 [138/403/1] test_pyexpat passed -- running: test_threading (42 sec 236 ms)
+beginning 6 repetitions
+123456
+......
+0:08:36 [139/403/1] test_pwd skipped -- running: test_threading (42 sec 438 ms)
+test_pwd skipped -- No module named pwd
+0:08:36 [140/403/1] test_slice passed -- running: test_threading (42 sec 783 ms)
+beginning 6 repetitions
+123456
+......
+0:08:37 [141/403/1] test_uu passed -- running: test_threading (43 sec 174 ms)
+beginning 6 repetitions
+123456
+......
+0:08:37 [142/403/1] test_math passed -- running: test_threading (43 sec 454 ms)
+beginning 6 repetitions
+123456
+......
+0:08:37 [143/403/1] test_glob passed -- running: test_threading (43 sec 799 ms)
+beginning 6 repetitions
+123456
+......
+0:08:37 [144/403/1] test_structseq passed -- running: test_threading (43 sec 861 ms)
+beginning 6 repetitions
+123456
+......
+0:08:37 [145/403/1] test_threading passed (43 sec 767 ms)
+beginning 6 repetitions
+123456
+......
+0:08:38 [146/403/1] test_code passed
+beginning 6 repetitions
+123456
+......
+0:08:38 [147/403/1] test_shlex passed
+beginning 6 repetitions
+123456
+......
+0:08:38 [148/403/1] test_popen2 passed
+beginning 6 repetitions
+123456
+......
+0:08:39 [149/403/1] test_charmapcodec passed
+beginning 6 repetitions
+123456
+......
+0:08:39 [150/403/1] test_md5 passed
+beginning 6 repetitions
+123456
+......
+0:08:40 [151/403/1] test_wsgiref passed
+beginning 6 repetitions
+123456
+......
+0:08:40 [152/403/1] test_imp passed
+beginning 6 repetitions
+123456
+......
+0:08:40 [153/403/1] test_eof passed
+beginning 6 repetitions
+123456
+......
+0:08:44 [154/403/1] test_doctest passed
+beginning 6 repetitions
+123456
+......
+0:08:56 [155/403/1] test_ctypes passed -- running: test_dumbdbm (39 sec 361 ms)
+beginning 6 repetitions
+123456
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.
+0:08:57 [156/403/1] test_calendar passed -- running: test_dumbdbm (39 sec 674 ms)
+beginning 6 repetitions
+123456
+......
+0:08:57 [157/403/1] test_applesingle skipped -- running: test_dumbdbm (39 sec 845 ms)
+test_applesingle skipped -- No module named MacOS
+0:08:57 [158/403/1] test_binascii passed -- running: test_dumbdbm (40 sec 204 ms)
+beginning 6 repetitions
+123456
+......
+0:09:01 [159/403/1] test_strftime passed -- running: test_dumbdbm (43 sec 517 ms)
+beginning 6 repetitions
+123456
+......
+0:09:01 [160/403/1] test_fileio passed -- running: test_dumbdbm (43 sec 813 ms)
+beginning 6 repetitions
+123456
+......
+0:09:05 [161/403/1] test_re passed -- running: test_dumbdbm (47 sec 938 ms)
+beginning 6 repetitions
+123456
+......
+0:09:27 [162/403/1] test_zlib passed -- running: test_dumbdbm (1 min 10 sec)
+beginning 6 repetitions
+123456
+......
+0:09:28 [163/403/1] test_transformer passed -- running: test_dumbdbm (1 min 10 sec)
+beginning 6 repetitions
+123456
+......
+0:09:28 [164/403/1] test_filecmp passed -- running: test_dumbdbm (1 min 11 sec)
+beginning 6 repetitions
+123456
+......
+0:09:29 [165/403/1] test__osx_support passed -- running: test_dumbdbm (1 min 11 sec)
+beginning 6 repetitions
+123456
+......
+0:09:29 [166/403/1] test_ensurepip passed -- running: test_dumbdbm (1 min 11 sec)
+beginning 6 repetitions
+123456
+......
+0:09:29 [167/403/1] test_macurl2path passed -- running: test_dumbdbm (1 min 12 sec)
+beginning 6 repetitions
+123456
+......
+0:09:29 [168/403/1] test_pkgutil passed -- running: test_dumbdbm (1 min 12 sec)
+beginning 6 repetitions
+123456
+......
+0:09:31 [169/403/1] test_timeit passed -- running: test_dumbdbm (1 min 13 sec), test_bufio (30 sec 157 ms)
+beginning 6 repetitions
+123456
+......
+0:09:31 [170/403/1] test_stringprep passed -- running: test_dumbdbm (1 min 13 sec), test_bufio (30 sec 454 ms)
+beginning 6 repetitions
+123456
+......
+0:09:31 [171/403/1] test_posix skipped -- running: test_dumbdbm (1 min 14 sec), test_bufio (30 sec 642 ms)
+test_posix skipped -- No module named posix
+0:09:32 [172/403/1] test_bigmem passed -- running: test_dumbdbm (1 min 15 sec), test_bufio (31 sec 876 ms)
+beginning 6 repetitions
+123456
+......
+0:09:33 [173/403/1] test_copy passed -- running: test_dumbdbm (1 min 15 sec), test_bufio (32 sec 235 ms)
+beginning 6 repetitions
+123456
+......
+0:09:42 [174/403/1] test_str passed -- running: test_lib2to3 (36 sec 922 ms), test_dumbdbm (1 min 24 sec), test_bufio (41 sec 360 ms)
+beginning 6 repetitions
+123456
+......
+0:09:42 [175/403/1] test_future4 passed -- running: test_lib2to3 (37 sec 235 ms), test_dumbdbm (1 min 25 sec), test_bufio (41 sec 673 ms)
+beginning 6 repetitions
+123456
+......
+0:09:50 [176/403/1] test_tcl passed -- running: test_lib2to3 (45 sec 79 ms), test_dumbdbm (1 min 32 sec), test_bufio (49 sec 517 ms)
+beginning 6 repetitions
+123456
+......
+0:09:50 [177/403/1] test_structmembers passed -- running: test_lib2to3 (45 sec 329 ms), test_dumbdbm (1 min 33 sec), test_bufio (49 sec 767 ms)
+beginning 6 repetitions
+123456
+......
+running: test_regrtest (30 sec 78 ms), test_lib2to3 (1 min 15 sec), test_dumbdbm (2 min 3 sec), test_bufio (1 min 19 sec)
+0:10:36 [178/403/1] test_regrtest passed (45 sec 549 ms) -- running: test_lib2to3 (1 min 31 sec), test_dumbdbm (2 min 18 sec), test_bufio (1 min 35 sec)
+beginning 6 repetitions
+123456
+......
+0:10:39 [179/403/1] test_float passed -- running: test_lib2to3 (1 min 33 sec), test_dumbdbm (2 min 21 sec), test_bufio (1 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:10:39 [180/403/1] test_dumbdbm passed (2 min 22 sec) -- running: test_lib2to3 (1 min 34 sec), test_bufio (1 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:10:40 [181/403/1] test_frozen passed -- running: test_lib2to3 (1 min 34 sec), test_bufio (1 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:10:41 [182/403/1] test_xml_etree passed -- running: test_lib2to3 (1 min 36 sec), test_bufio (1 min 40 sec)
+beginning 6 repetitions
+123456
+......
+0:11:10 [183/403/1] test_lib2to3 passed (2 min 4 sec) -- running: test_bsddb (30 sec 454 ms), test_bufio (2 min 9 sec)
+beginning 6 repetitions
+123456
+.No handlers could be found for logger "RefactoringTool"
+.....
+0:11:36 [184/403/1] test_pickle passed -- running: test_cpickle (54 sec 814 ms), test_bsddb (56 sec 251 ms), test_bufio (2 min 35 sec)
+beginning 6 repetitions
+123456
+......
+0:11:36 [185/403/1] test_old_mailbox passed -- running: test_cpickle (55 sec 329 ms), test_bsddb (56 sec 767 ms), test_bufio (2 min 35 sec)
+beginning 6 repetitions
+123456
+......
+0:11:38 [186/403/1] test_sort passed -- running: test_cpickle (56 sec 860 ms), test_bsddb (58 sec 297 ms), test_bufio (2 min 37 sec)
+beginning 6 repetitions
+123456
+......
+0:11:39 [187/403/1] test_bsddb passed (58 sec 704 ms) -- running: test_cpickle (57 sec 501 ms), test_bufio (2 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:11:39 [188/403/1] test_with passed -- running: test_cpickle (57 sec 814 ms), test_bufio (2 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:11:49 [189/403/1] test_normalization passed -- running: test_cpickle (1 min 7 sec), test_bufio (2 min 48 sec)
+beginning 6 repetitions
+123456
+......
+0:11:49 [190/403/1] test_MimeWriter passed -- running: test_cpickle (1 min 8 sec), test_bufio (2 min 48 sec)
+beginning 6 repetitions
+123456
+......
+0:11:52 [191/403/1] test_pdb passed -- running: test_cpickle (1 min 10 sec), test_bufio (2 min 51 sec)
+beginning 6 repetitions
+123456
+......
+0:11:56 [192/403/1] test_cpickle passed (1 min 14 sec) -- running: test_bufio (2 min 55 sec)
+beginning 6 repetitions
+123456
+......
+0:11:56 [193/403/1] test_random passed -- running: test_bufio (2 min 55 sec)
+beginning 6 repetitions
+123456
+......
+0:11:57 [194/403/1] test_macpath passed -- running: test_bufio (2 min 56 sec)
+beginning 6 repetitions
+123456
+......
+0:12:00 [195/403/1] test_email_renamed passed -- running: test_bufio (2 min 59 sec)
+beginning 6 repetitions
+123456
+......
+0:12:00 [196/403/1] test_ossaudiodev skipped -- running: test_bufio (2 min 59 sec)
+test_ossaudiodev skipped -- No module named ossaudiodev
+0:12:01 [197/403/1] test_gdb skipped -- running: test_bufio (3 min 129 ms)
+test_gdb skipped -- Couldn't find gdb on the path
+0:12:01 [198/403/1] test_rfc822 passed -- running: test_bufio (3 min 425 ms)
+beginning 6 repetitions
+123456
+......
+0:12:02 [199/403/1] test_file passed -- running: test_bufio (3 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:12:03 [200/403/1] test_smtpnet passed -- running: test_bufio (3 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:12:07 [201/403/1] test_xpickle passed -- running: test_bufio (3 min 6 sec)
+'python2.4' is not recognized as an internal or external command,
+operable program or batch file.
+'python2.5' is not recognized as an internal or external command,
+operable program or batch file.
+'python2.6' is not recognized as an internal or external command,
+operable program or batch file.
+'python2.7' is not recognized as an internal or external command,
+operable program or batch file.
+beginning 6 repetitions
+123456
+......
+0:12:09 [202/403/1] test_codecencodings_cn passed -- running: test_bufio (3 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:12:09 [203/403/1] test_atexit passed -- running: test_ftplib (30 sec 281 ms), test_bufio (3 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:12:15 [204/403/1] test_codecencodings_iso2022 passed -- running: test_ftplib (36 sec 63 ms), test_bufio (3 min 14 sec)
+beginning 6 repetitions
+123456
+......
+0:12:16 [205/403/1] test_htmlparser passed -- running: test_ftplib (36 sec 970 ms), test_bufio (3 min 15 sec)
+beginning 6 repetitions
+123456
+......
+0:12:17 [206/403/1] test_msilib passed -- running: test_ftplib (38 sec 235 ms), test_bufio (3 min 16 sec)
+beginning 6 repetitions
+123456
+......
+0:12:20 [207/403/1] test_warnings passed -- running: test_ftplib (41 sec 579 ms), test_bufio (3 min 19 sec)
+beginning 6 repetitions
+123456
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.
+0:12:23 [208/403/1] test_os passed -- running: test_ftplib (44 sec 95 ms), test_bufio (3 min 22 sec)
+beginning 6 repetitions
+123456
+......
+0:12:23 [209/403/1] test_pep352 passed -- running: test_ftplib (44 sec 408 ms), test_bufio (3 min 22 sec)
+beginning 6 repetitions
+123456
+......
+0:12:23 [210/403/1] test_dl skipped -- running: test_ftplib (44 sec 579 ms), test_bufio (3 min 22 sec)
+test_dl skipped -- No module named dl
+0:12:24 [211/403/1] test_contains passed -- running: test_ftplib (44 sec 829 ms), test_bufio (3 min 23 sec)
+beginning 6 repetitions
+123456
+......
+0:12:25 [212/403/1] test_sgmllib passed -- running: test_ftplib (45 sec 672 ms), test_bufio (3 min 24 sec)
+beginning 6 repetitions
+123456
+......
+0:12:25 [213/403/1] test_imghdr passed -- running: test_ftplib (46 sec 125 ms), test_bufio (3 min 24 sec)
+beginning 6 repetitions
+123456
+......
+0:12:28 [214/403/1] test_fpformat passed -- running: test_ftplib (49 sec 172 ms), test_bufio (3 min 27 sec)
+beginning 6 repetitions
+123456
+......
+0:12:28 [215/403/1] test_multifile passed -- running: test_ftplib (49 sec 422 ms), test_bufio (3 min 27 sec)
+beginning 6 repetitions
+123456
+......
+0:12:29 [216/403/1] test_future_builtins passed -- running: test_ftplib (49 sec 688 ms), test_bufio (3 min 28 sec)
+beginning 6 repetitions
+123456
+......
+0:12:34 [217/403/1] test_ftplib passed (54 sec 423 ms) -- running: test_bufio (3 min 33 sec)
+beginning 6 repetitions
+123456
+......
+0:12:34 [218/403/1] test_linecache passed -- running: test_bufio (3 min 33 sec)
+beginning 6 repetitions
+123456
+......
+0:12:34 [219/403/1] test_call passed -- running: test_bufio (3 min 33 sec)
+beginning 6 repetitions
+123456
+......
+0:12:34 [220/403/1] test_index passed -- running: test_bufio (3 min 34 sec)
+beginning 6 repetitions
+123456
+......
+0:12:36 [221/403/1] test_import passed -- running: test_bufio (3 min 35 sec)
+beginning 6 repetitions
+123456
+......
+0:12:37 [222/403/1] test_defaultdict passed -- running: test_bufio (3 min 36 sec)
+beginning 6 repetitions
+123456
+......
+0:12:37 [223/403/1] test_fileinput passed -- running: test_bufio (3 min 36 sec)
+beginning 6 repetitions
+123456
+......
+0:12:38 [224/403/1] test_mutex passed -- running: test_bufio (3 min 37 sec)
+beginning 6 repetitions
+123456
+......
+0:12:39 [225/403/1] test_xrange passed -- running: test_bufio (3 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:12:40 [226/403/1] test_plistlib passed -- running: test_bufio (3 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:12:42 [227/403/1] test_unittest passed -- running: test_bufio (3 min 41 sec)
+beginning 6 repetitions
+123456
+......
+0:12:42 [228/403/1] test_fork1 skipped -- running: test_bufio (3 min 41 sec)
+test_fork1 skipped -- module 'os' has no attribute 'fork'
+0:12:43 [229/403/1] test_sys_setprofile passed -- running: test_bufio (3 min 42 sec)
+beginning 6 repetitions
+123456
+......
+0:12:45 [230/403/1] test_unicodedata passed -- running: test_bufio (3 min 44 sec)
+beginning 6 repetitions
+123456
+......
+0:12:45 [231/403/1] test_getopt passed -- running: test_bufio (3 min 44 sec)
+beginning 6 repetitions
+123456
+......
+0:12:46 [232/403/1] test_future passed -- running: test_bufio (3 min 45 sec)
+beginning 6 repetitions
+123456
+......
+0:12:50 [233/403/1] test_array passed -- running: test_bufio (3 min 49 sec)
+beginning 6 repetitions
+123456
+......
+0:12:52 [234/403/1] test_winreg passed -- running: test_bufio (3 min 51 sec)
+beginning 6 repetitions
+123456
+......
+0:12:57 [235/403/1] test_codecmaps_hk passed -- running: test_bufio (3 min 57 sec)
+beginning 6 repetitions
+123456
+......
+0:12:58 [236/403/1] test_ttk_guionly passed -- running: test_bufio (3 min 58 sec)
+beginning 6 repetitions
+123456
+......
+0:12:59 [237/403/1] test_univnewlines2k passed -- running: test_bufio (3 min 58 sec)
+beginning 6 repetitions
+123456
+......
+0:12:59 [238/403/1] test_textwrap passed -- running: test_bufio (3 min 58 sec)
+beginning 6 repetitions
+123456
+......
+0:13:00 [239/403/1] test_fractions passed -- running: test_bufio (3 min 59 sec)
+beginning 6 repetitions
+123456
+......
+0:13:02 [240/403/1] test_sax passed -- running: test_bufio (4 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:13:17 [241/403/1] test_codecencodings_jp passed -- running: test_bufio (4 min 16 sec)
+beginning 6 repetitions
+123456
+......
+0:13:17 [242/403/1] test_linuxaudiodev skipped -- running: test_bufio (4 min 16 sec)
+test_linuxaudiodev skipped -- No module named linuxaudiodev
+0:13:32 [243/403/1] test_email passed -- running: test_distutils (41 sec 408 ms), test_bufio (4 min 31 sec)
+beginning 6 repetitions
+123456
+......
+0:13:42 [244/403/1] test_bufio passed (4 min 41 sec) -- running: test_distutils (51 sec 939 ms)
+beginning 6 repetitions
+123456
+......
+0:13:43 [245/403/1] test_iterlen passed -- running: test_distutils (52 sec 158 ms)
+beginning 6 repetitions
+123456
+......
+0:13:43 [246/403/1] test_doctest2 passed -- running: test_distutils (52 sec 595 ms)
+beginning 6 repetitions
+123456
+......
+0:13:47 [247/403/1] test_long passed (30 sec 500 ms) -- running: test_distutils (57 sec 96 ms)
+beginning 6 repetitions
+123456
+......
+0:13:48 [248/403/1] test_fcntl skipped -- running: test_distutils (57 sec 346 ms)
+test_fcntl skipped -- No module named fcntl
+0:13:48 [249/403/1] test_genexps passed -- running: test_distutils (57 sec 799 ms)
+beginning 6 repetitions
+123456
+......
+0:13:49 [250/403/1] test_richcmp passed -- running: test_distutils (58 sec 252 ms)
+beginning 6 repetitions
+123456
+......
+0:13:52 [251/403/1] test_cfgparser passed -- running: test_distutils (1 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:13:52 [252/403/1] test_builtin passed -- running: test_distutils (1 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:13:53 [253/403/1] test_optparse passed -- running: test_distutils (1 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:13:54 [254/403/1] test_extcall passed -- running: test_distutils (1 min 3 sec)
+beginning 6 repetitions
+123456
+......
+0:13:57 [255/403/1] test_distutils passed (1 min 6 sec)
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library d:\temp\tmpy_avzb\Debug\temp\tmpy_avzb\xx_d.lib and object d:\temp\tmpy_avzb\Debug\temp\tmpy_avzb\xx_d.exp
+foo.c
+   Creating library d:\temp\tmpct0orf\tempt\temp\tmpzze4gr\foo_d.lib and object d:\temp\tmpct0orf\tempt\temp\tmpzze4gr\foo_d.exp
+foo.c
+   Creating library d:\temp\tmpct0orf\tempt\temp\tmpzze4gr\foo_d.lib and object d:\temp\tmpct0orf\tempt\temp\tmpzze4gr\foo_d.exp
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library build\temp.win-amd64-2.7-pydebug\Debug\xx_d.lib and object build\temp.win-amd64-2.7-pydebug\Debug\xx_d.exp
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 1 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 0 
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library d:\temp\tmpokcwlm\Debug\temp\tmpokcwlm\xx_d.lib and object d:\temp\tmpokcwlm\Debug\temp\tmpokcwlm\xx_d.exp
+foo.c
+   Creating library d:\temp\tmpuett3j\tempt\temp\tmpldcffw\foo_d.lib and object d:\temp\tmpuett3j\tempt\temp\tmpldcffw\foo_d.exp
+foo.c
+   Creating library d:\temp\tmpuett3j\tempt\temp\tmpldcffw\foo_d.lib and object d:\temp\tmpuett3j\tempt\temp\tmpldcffw\foo_d.exp
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library build\temp.win-amd64-2.7-pydebug\Debug\xx_d.lib and object build\temp.win-amd64-2.7-pydebug\Debug\xx_d.exp
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 1 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 0 
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library d:\temp\tmpdw3yw_\Debug\temp\tmpdw3yw_\xx_d.lib and object d:\temp\tmpdw3yw_\Debug\temp\tmpdw3yw_\xx_d.exp
+foo.c
+   Creating library d:\temp\tmpozwaio\tempt\temp\tmp32xqsi\foo_d.lib and object d:\temp\tmpozwaio\tempt\temp\tmp32xqsi\foo_d.exp
+foo.c
+   Creating library d:\temp\tmpozwaio\tempt\temp\tmp32xqsi\foo_d.lib and object d:\temp\tmpozwaio\tempt\temp\tmp32xqsi\foo_d.exp
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library build\temp.win-amd64-2.7-pydebug\Debug\xx_d.lib and object build\temp.win-amd64-2.7-pydebug\Debug\xx_d.exp
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 1 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 0 
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library d:\temp\tmpzuq9m8\Debug\temp\tmpzuq9m8\xx_d.lib and object d:\temp\tmpzuq9m8\Debug\temp\tmpzuq9m8\xx_d.exp
+foo.c
+   Creating library d:\temp\tmpiq5mmn\tempt\temp\tmpuzr_sz\foo_d.lib and object d:\temp\tmpiq5mmn\tempt\temp\tmpuzr_sz\foo_d.exp
+foo.c
+   Creating library d:\temp\tmpiq5mmn\tempt\temp\tmpuzr_sz\foo_d.lib and object d:\temp\tmpiq5mmn\tempt\temp\tmpuzr_sz\foo_d.exp
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library build\temp.win-amd64-2.7-pydebug\Debug\xx_d.lib and object build\temp.win-amd64-2.7-pydebug\Debug\xx_d.exp
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 1 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 0 
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library d:\temp\tmpme8pzp\Debug\temp\tmpme8pzp\xx_d.lib and object d:\temp\tmpme8pzp\Debug\temp\tmpme8pzp\xx_d.exp
+foo.c
+   Creating library d:\temp\tmpiq6yxz\tempt\temp\tmpc0_hbl\foo_d.lib and object d:\temp\tmpiq6yxz\tempt\temp\tmpc0_hbl\foo_d.exp
+foo.c
+beginning 6 repetitions
+123456
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\distutils\msvc9compiler.py:120: DeprecationWarning: decoding Unicode is not supported in 3.x
+  s = dec("mbcs")
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\distutils\msvc9compiler.py:120: DeprecationWarning: decoding Unicode is not supported in 3.x
+  s = dec("mbcs")
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\distutils\msvc9compiler.py:120: DeprecationWarning: decoding Unicode is not supported in 3.x
+  s = dec("mbcs")
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\distutils\msvc9compiler.py:120: DeprecationWarning: decoding Unicode is not supported in 3.x
+  s = dec("mbcs")
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\distutils\msvc9compiler.py:120: DeprecationWarning: decoding Unicode is not supported in 3.x
+  s = dec("mbcs")
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\distutils\msvc9compiler.py:120: DeprecationWarning: decoding Unicode is not supported in 3.x
+  s = dec("mbcs")
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.
+   Creating library d:\temp\tmpiq6yxz\tempt\temp\tmpc0_hbl\foo_d.lib and object d:\temp\tmpiq6yxz\tempt\temp\tmpc0_hbl\foo_d.exp
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library build\temp.win-amd64-2.7-pydebug\Debug\xx_d.lib and object build\temp.win-amd64-2.7-pydebug\Debug\xx_d.exp
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 1 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 0 
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library d:\temp\tmpzggvwx\Debug\temp\tmpzggvwx\xx_d.lib and object d:\temp\tmpzggvwx\Debug\temp\tmpzggvwx\xx_d.exp
+foo.c
+   Creating library d:\temp\tmpo7ecce\tempt\temp\tmpnk6gew\foo_d.lib and object d:\temp\tmpo7ecce\tempt\temp\tmpnk6gew\foo_d.exp
+foo.c
+   Creating library d:\temp\tmpo7ecce\tempt\temp\tmpnk6gew\foo_d.lib and object d:\temp\tmpo7ecce\tempt\temp\tmpnk6gew\foo_d.exp
+xxmodule.c
+xxmodule.obj : warning LNK4197: export 'initxx' specified multiple times; using first specification
+   Creating library build\temp.win-amd64-2.7-pydebug\Debug\xx_d.lib and object build\temp.win-amd64-2.7-pydebug\Debug\xx_d.exp
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 1 
+
+D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_868>exit 0
+0:13:57 [256/403/1] test_bz2 passed
+beginning 6 repetitions
+123456
+......
+0:13:58 [257/403/1] test_ascii_formatd passed
+beginning 6 repetitions
+123456
+......
+0:13:58 [258/403/1] test_rlcompleter passed
+beginning 6 repetitions
+123456
+......
+0:14:24 [259/403/1] test_telnetlib passed (30 sec 485 ms) -- running: test_mailbox (52 sec 470 ms)
+beginning 6 repetitions
+123456
+......
+0:14:27 [260/403/1] test_runpy passed -- running: test_mailbox (55 sec 33 ms)
+beginning 6 repetitions
+123456
+......
+0:14:30 [261/403/1] test_winsound passed (31 sec 705 ms) -- running: test_mailbox (57 sec 987 ms)
+beginning 6 repetitions
+123456
+......
+0:14:30 [262/403/1] test_colorsys passed -- running: test_mailbox (58 sec 331 ms)
+beginning 6 repetitions
+123456
+......
+0:14:30 [263/403/1] test_base64 passed -- running: test_mailbox (58 sec 597 ms)
+beginning 6 repetitions
+123456
+......
+0:14:31 [264/403/1] test_buffer passed -- running: test_mailbox (58 sec 956 ms)
+beginning 6 repetitions
+123456
+......
+0:14:31 [265/403/1] test_file_eintr passed -- running: test_mailbox (59 sec 191 ms)
+beginning 6 repetitions
+123456
+......
+0:14:32 [266/403/1] test_cmath passed -- running: test_mailbox (1 min 112 ms)
+0:14:32 [267/403/1] test_urllib2 passed -- running: test_mailbox (1 min 112 ms)
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+0:14:32 [268/403/1] test_curses skipped -- running: test_mailbox (1 min 487 ms)
+test_curses skipped -- No module named _curses
+0:14:32 [269/403/1] test_htmllib passed -- running: test_mailbox (1 min 487 ms)
+beginning 6 repetitions
+123456
+......
+0:14:32 [270/403/1] test_operator passed -- running: test_mailbox (1 min 769 ms)
+beginning 6 repetitions
+123456
+......
+0:14:33 [271/403/1] test_enumerate passed -- running: test_mailbox (1 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:14:33 [272/403/1] test_exception_variations passed -- running: test_mailbox (1 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:14:35 [273/403/1] test_datetime passed -- running: test_mailbox (1 min 3 sec)
+beginning 6 repetitions
+123456
+......
+0:14:37 [274/403/1] test_hashlib passed -- running: test_mailbox (1 min 5 sec)
+beginning 6 repetitions
+123456
+......
+0:14:37 [275/403/1] test_StringIO passed -- running: test_mailbox (1 min 5 sec)
+beginning 6 repetitions
+123456
+......
+0:14:38 [276/403/1] test_importhooks passed -- running: test_mailbox (1 min 5 sec)
+beginning 6 repetitions
+123456
+......
+0:14:38 [277/403/1] test_syntax passed -- running: test_mailbox (1 min 5 sec)
+beginning 6 repetitions
+123456
+......
+0:14:38 [278/403/1] test_funcattrs passed -- running: test_mailbox (1 min 6 sec)
+beginning 6 repetitions
+123456
+......
+0:14:38 [279/403/1] test_univnewlines passed -- running: test_mailbox (1 min 6 sec)
+beginning 6 repetitions
+123456
+......
+0:14:39 [280/403/1] test_coercion passed -- running: test_mailbox (1 min 7 sec)
+beginning 6 repetitions
+123456
+......
+0:14:46 [281/403/1] test_userdict passed -- running: test_mailbox (1 min 14 sec)
+beginning 6 repetitions
+123456
+......
+0:14:47 [282/403/1] test_cl skipped -- running: test_mailbox (1 min 14 sec)
+test_cl skipped -- No module named cl
+0:14:49 [283/403/1] test_dict passed -- running: test_mailbox (1 min 17 sec)
+beginning 6 repetitions
+123456
+......
+0:14:49 [284/403/1] test_isinstance passed -- running: test_mailbox (1 min 17 sec)
+beginning 6 repetitions
+123456
+......
+0:14:50 [285/403/1] test_getargs2 passed -- running: test_mailbox (1 min 18 sec)
+beginning 6 repetitions
+123456
+......
+0:14:50 [286/403/1] test_tools passed -- running: test_mailbox (1 min 18 sec)
+beginning 6 repetitions
+123456
+......
+0:14:50 [287/403/1] test_typechecks passed -- running: test_mailbox (1 min 18 sec)
+beginning 6 repetitions
+123456
+......
+0:14:51 [288/403/1] test_bool passed -- running: test_mailbox (1 min 18 sec)
+beginning 6 repetitions
+123456
+......
+0:14:51 [289/403/1] test_memoryview passed -- running: test_mailbox (1 min 19 sec)
+beginning 6 repetitions
+123456
+......
+0:14:51 [290/403/1] test_mhlib skipped -- running: test_mailbox (1 min 19 sec)
+test_mhlib skipped -- skipped on win32 -- too many Unix assumptions
+0:14:52 [291/403/1] test_module passed -- running: test_mailbox (1 min 19 sec)
+beginning 6 repetitions
+123456
+......
+0:14:52 [292/403/1] test_macostools skipped -- running: test_mailbox (1 min 20 sec)
+test_macostools skipped -- No module named MacOS
+0:14:58 [293/403/1] test_anydbm passed -- running: test_shelve (34 sec 96 ms), test_mailbox (1 min 26 sec)
+beginning 6 repetitions
+123456
+......
+0:14:58 [294/403/1] test_scriptpackages skipped -- running: test_shelve (34 sec 252 ms), test_mailbox (1 min 26 sec)
+test_scriptpackages skipped -- No module named aetools
+0:14:59 [295/403/1] test_cprofile passed -- running: test_shelve (35 sec 50 ms), test_mailbox (1 min 27 sec)
+beginning 6 repetitions
+123456
+......
+0:14:59 [296/403/1] test_bsddb185 skipped -- running: test_shelve (35 sec 190 ms), test_mailbox (1 min 27 sec)
+test_bsddb185 skipped -- No module named bsddb185
+0:15:02 [297/403/1] test_threading_local passed -- running: test_shelve (38 sec 127 ms), test_mailbox (1 min 30 sec)
+beginning 6 repetitions
+123456
+......
+0:15:03 [298/403/1] test_strop passed -- running: test_shelve (38 sec 440 ms), test_mailbox (1 min 30 sec)
+beginning 6 repetitions
+123456
+......
+0:15:05 [299/403/1] test_codecs passed -- running: test_shelve (40 sec 487 ms), test_mailbox (1 min 32 sec)
+beginning 6 repetitions
+123456
+......
+0:15:05 [300/403/1] test___future__ passed -- running: test_shelve (40 sec 706 ms), test_mailbox (1 min 33 sec)
+beginning 6 repetitions
+123456
+......
+0:15:06 [301/403/1] test_zipimport passed -- running: test_shelve (41 sec 550 ms), test_mailbox (1 min 33 sec)
+beginning 6 repetitions
+123456
+......
+0:15:06 [302/403/1] test_pprint passed -- running: test_shelve (42 sec 190 ms), test_mailbox (1 min 34 sec)
+beginning 6 repetitions
+123456
+......
+0:15:07 [303/403/1] test_sysconfig passed -- running: test_shelve (42 sec 612 ms), test_mailbox (1 min 35 sec)
+beginning 6 repetitions
+123456
+......
+0:15:07 [304/403/1] test_future3 passed -- running: test_shelve (42 sec 893 ms), test_mailbox (1 min 35 sec)
+beginning 6 repetitions
+123456
+......
+0:15:08 [305/403/1] test_xml_etree_c passed -- running: test_shelve (43 sec 879 ms), test_mailbox (1 min 36 sec)
+beginning 6 repetitions
+123456
+......
+0:15:08 [306/403/1] test_zipimport_support passed -- running: test_shelve (44 sec 346 ms), test_mailbox (1 min 36 sec)
+beginning 6 repetitions
+123456
+......
+0:15:09 [307/403/1] test_compare passed -- running: test_shelve (44 sec 643 ms), test_mailbox (1 min 37 sec)
+beginning 6 repetitions
+123456
+......
+0:15:09 [308/403/1] test_symtable passed -- running: test_shelve (44 sec 940 ms), test_mailbox (1 min 37 sec)
+beginning 6 repetitions
+123456
+......
+0:15:10 [309/403/1] test__locale passed -- running: test_shelve (46 sec 175 ms), test_mailbox (1 min 38 sec)
+beginning 6 repetitions
+123456
+......
+0:15:11 [310/403/1] test_gdbm skipped -- running: test_shelve (46 sec 440 ms), test_mailbox (1 min 38 sec)
+test_gdbm skipped -- No module named gdbm
+0:15:11 [311/403/1] test_source_encoding passed -- running: test_shelve (47 sec 4 ms), test_mailbox (1 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:15:11 [312/403/1] test_audioop passed -- running: test_shelve (47 sec 268 ms), test_mailbox (1 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:15:12 [313/403/1] test_augassign passed -- running: test_shelve (47 sec 534 ms), test_mailbox (1 min 39 sec)
+beginning 6 repetitions
+123456
+......
+0:15:18 [314/403/1] test_time passed -- running: test_shelve (53 sec 987 ms), test_mailbox (1 min 46 sec)
+beginning 6 repetitions
+123456
+......
+0:15:18 [315/403/1] test_unpack passed -- running: test_shelve (54 sec 362 ms), test_mailbox (1 min 46 sec)
+beginning 6 repetitions
+123456
+......
+0:15:20 [316/403/2] test_urllibnet failed -- running: test_shelve (55 sec 815 ms), test_mailbox (1 min 48 sec)
+beginning 6 repetitions
+123456
+test test_urllibnet failed -- Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_urllibnet.py", line 212, in test_context_argument
+    response = urllib.urlopen("https://self-signed.pythontest.net", context=context)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 844, in send
+    self.connect()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+0:15:20 [317/403/2] test_peepholer passed -- running: test_shelve (56 sec 254 ms), test_mailbox (1 min 48 sec)
+beginning 6 repetitions
+123456
+......
+0:15:20 [318/403/2] test_cd skipped -- running: test_shelve (56 sec 379 ms), test_mailbox (1 min 48 sec)
+test_cd skipped -- No module named cd
+0:15:21 [319/403/2] test_dummy_threading passed -- running: test_shelve (56 sec 659 ms), test_mailbox (1 min 49 sec)
+beginning 6 repetitions
+123456
+......
+0:15:21 [320/403/2] test_posixpath passed -- running: test_shelve (57 sec 175 ms), test_mailbox (1 min 49 sec)
+beginning 6 repetitions
+123456
+......
+0:15:22 [321/403/2] test_list passed -- running: test_shelve (57 sec 956 ms), test_mailbox (1 min 50 sec)
+beginning 6 repetitions
+123456
+......
+0:15:22 [322/403/2] test_complex_args passed -- running: test_shelve (58 sec 284 ms), test_mailbox (1 min 50 sec)
+beginning 6 repetitions
+123456
+......
+0:15:42 [323/403/2] test_capi passed -- running: test_shelve (1 min 18 sec), test_codecmaps_kr (30 sec 642 ms), test_mailbox (2 min 10 sec)
+beginning 6 repetitions
+123456
+......
+0:15:44 [324/403/2] test_codecmaps_kr passed (31 sec 986 ms) -- running: test_shelve (1 min 19 sec), test_mailbox (2 min 12 sec)
+beginning 6 repetitions
+123456
+......
+0:15:45 [325/403/2] test_codecencodings_kr passed -- running: test_shelve (1 min 21 sec), test_mailbox (2 min 13 sec)
+beginning 6 repetitions
+123456
+......
+0:15:45 [326/403/2] test_compiler passed -- running: test_shelve (1 min 21 sec), test_mailbox (2 min 13 sec)
+beginning 6 repetitions
+123456
+......
+0:15:46 [327/403/2] test_hmac passed -- running: test_shelve (1 min 21 sec), test_mailbox (2 min 13 sec)
+beginning 6 repetitions
+123456
+......
+0:16:02 [328/403/2] test_shelve passed (1 min 37 sec) -- running: test_mailbox (2 min 30 sec)
+beginning 6 repetitions
+123456
+......
+running: test_userstring (30 sec 31 ms), test_asynchat (47 sec 63 ms), test_mailbox (3 min 645 ms), test_bsddb3 (46 sec 813 ms)
+0:16:39 [329/403/2] test_userstring passed (36 sec 64 ms) -- running: test_asynchat (53 sec 283 ms), test_mailbox (3 min 6 sec), test_bsddb3 (53 sec 33 ms)
+beginning 6 repetitions
+123456
+......
+0:16:40 [330/403/2] test_thread passed -- running: test_asynchat (54 sec 876 ms), test_mailbox (3 min 8 sec), test_bsddb3 (54 sec 626 ms)
+beginning 6 repetitions
+123456
+......
+0:16:41 [331/403/2] test_test_support passed -- running: test_asynchat (55 sec 642 ms), test_mailbox (3 min 9 sec), test_bsddb3 (55 sec 392 ms)
+beginning 6 repetitions
+123456
+......
+0:16:41 [332/403/2] test_cookie passed -- running: test_asynchat (56 sec 221 ms), test_mailbox (3 min 9 sec), test_bsddb3 (55 sec 971 ms)
+beginning 6 repetitions
+123456
+......
+0:16:43 [333/403/2] test_popen passed -- running: test_asynchat (57 sec 424 ms), test_mailbox (3 min 11 sec), test_bsddb3 (57 sec 174 ms)
+beginning 6 repetitions
+123456
+......
+0:16:58 [334/403/2] test_poplib passed -- running: test_asynchat (1 min 12 sec), test_mailbox (3 min 26 sec), test_bsddb3 (1 min 12 sec)
+beginning 6 repetitions
+123456
+......
+0:17:03 [335/403/2] test_asynchat passed (1 min 17 sec) -- running: test_mailbox (3 min 31 sec), test_bsddb3 (1 min 17 sec)
+beginning 6 repetitions
+123456
+......
+0:17:09 [336/403/3] test_httplib failed -- running: test_mailbox (3 min 36 sec), test_bsddb3 (1 min 23 sec)
+beginning 6 repetitions
+123456
+test test_httplib failed -- Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_httplib.py", line 867, in test_networked_good_cert
+    h.request('GET', '/')
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 844, in send
+    self.connect()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+0:17:09 [337/403/3] test_pkgimport passed -- running: test_mailbox (3 min 37 sec), test_bsddb3 (1 min 23 sec)
+beginning 6 repetitions
+123456
+......
+0:17:26 [338/403/3] test_codecmaps_cn passed -- running: test_mailbox (3 min 54 sec), test_bsddb3 (1 min 40 sec)
+beginning 6 repetitions
+123456
+......
+0:17:27 [339/403/3] test_cookielib passed -- running: test_mailbox (3 min 55 sec), test_bsddb3 (1 min 41 sec)
+beginning 6 repetitions
+123456
+......
+0:17:48 [340/403/3] test_tk passed -- running: test_long_future (39 sec 329 ms), test_mailbox (4 min 16 sec), test_bsddb3 (2 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:17:48 [341/403/3] test_select passed -- running: test_long_future (39 sec 532 ms), test_mailbox (4 min 16 sec), test_bsddb3 (2 min 2 sec)
+0:17:48 [342/403/3] test_long_future passed (39 sec 376 ms) -- running: test_mailbox (4 min 16 sec), test_bsddb3 (2 min 2 sec)
+beginning 6 repetitions
+123456
+......
+beginning 6 repetitions
+123456
+......
+0:17:49 [343/403/3] test_grammar passed -- running: test_mailbox (4 min 17 sec), test_bsddb3 (2 min 3 sec)
+beginning 6 repetitions
+123456
+......
+0:17:49 [344/403/3] test_fnmatch passed -- running: test_mailbox (4 min 17 sec), test_bsddb3 (2 min 3 sec)
+beginning 6 repetitions
+123456
+......
+0:17:54 [345/403/3] test_deque passed -- running: test_mailbox (4 min 21 sec), test_bsddb3 (2 min 8 sec)
+beginning 6 repetitions
+123456
+......
+0:17:55 [346/403/3] test_sets passed -- running: test_mailbox (4 min 23 sec), test_bsddb3 (2 min 9 sec)
+beginning 6 repetitions
+123456
+......
+0:17:59 [347/403/3] test_pickletools passed -- running: test_mailbox (4 min 27 sec), test_bsddb3 (2 min 13 sec)
+beginning 6 repetitions
+123456
+......
+0:18:03 [348/403/3] test_gettext passed -- running: test_mailbox (4 min 30 sec), test_bsddb3 (2 min 17 sec)
+beginning 6 repetitions
+123456
+......
+0:18:05 [349/403/3] test_pkg passed -- running: test_mailbox (4 min 33 sec), test_bsddb3 (2 min 19 sec)
+beginning 6 repetitions
+123456
+......
+0:18:06 [350/403/3] test_class passed -- running: test_mailbox (4 min 33 sec), test_bsddb3 (2 min 20 sec)
+beginning 6 repetitions
+123456
+......
+0:18:10 [351/403/3] test_codecmaps_tw passed -- running: test_mailbox (4 min 38 sec), test_bsddb3 (2 min 24 sec)
+beginning 6 repetitions
+123456
+......
+0:18:10 [352/403/3] test_SimpleHTTPServer passed -- running: test_mailbox (4 min 38 sec), test_bsddb3 (2 min 24 sec)
+beginning 6 repetitions
+123456
+......
+0:18:27 [353/403/3] test_mailbox passed (4 min 55 sec) -- running: test_bsddb3 (2 min 41 sec)
+beginning 6 repetitions
+123456
+......
+0:18:29 [354/403/3] test_codecencodings_tw passed -- running: test_bsddb3 (2 min 43 sec)
+beginning 6 repetitions
+123456
+......
+0:18:30 [355/403/3] test_aifc passed -- running: test_bsddb3 (2 min 44 sec)
+beginning 6 repetitions
+123456
+......
+0:18:33 [356/403/3] test_queue passed -- running: test_bsddb3 (2 min 47 sec)
+beginning 6 repetitions
+123456
+......
+0:18:34 [357/403/3] test_ordered_dict passed -- running: test_bsddb3 (2 min 48 sec)
+beginning 6 repetitions
+123456
+......
+0:18:38 [358/403/3] test_json passed -- running: test_bsddb3 (2 min 52 sec)
+beginning 6 repetitions
+123456
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.
+0:18:38 [359/403/3] test_property passed -- running: test_bsddb3 (2 min 52 sec)
+beginning 6 repetitions
+123456
+......
+0:18:39 [360/403/3] test_format passed -- running: test_bsddb3 (2 min 53 sec)
+beginning 6 repetitions
+123456
+......
+0:18:42 [361/403/3] test_int passed -- running: test_bsddb3 (2 min 56 sec)
+beginning 6 repetitions
+123456
+......
+0:18:43 [362/403/3] test_uuid passed -- running: test_bsddb3 (2 min 57 sec)
+beginning 6 repetitions
+123456
+......
+0:18:44 [363/403/3] test_smtplib passed -- running: test_bsddb3 (2 min 58 sec)
+beginning 6 repetitions
+123456
+......
+0:18:45 [364/403/3] test_quopri passed -- running: test_bsddb3 (2 min 59 sec)
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\support\__init__.py:819: RuntimeWarning: tests may fail, unable to create temp dir: D:\buildarea\2.7.ware-win81-release.refleak\build\build\test_python_280
+  with temp_dir(path=name, quiet=quiet) as temp_path:
+beginning 6 repetitions
+123456
+......
+0:18:46 [365/403/3] test_epoll skipped -- running: test_bsddb3 (3 min 50 ms)
+test_epoll skipped -- test works only on Linux 2.6
+0:18:46 [366/403/3] test_opcodes passed -- running: test_bsddb3 (3 min 394 ms)
+beginning 6 repetitions
+123456
+......
+0:18:47 [367/403/3] test_wave passed -- running: test_bsddb3 (3 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:18:47 [368/403/3] test_abstract_numbers passed -- running: test_bsddb3 (3 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:18:48 [369/403/3] test_minidom passed -- running: test_bsddb3 (3 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:18:48 [370/403/3] test_codecencodings_hk passed -- running: test_bsddb3 (3 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:18:48 [371/403/3] test_commands skipped -- running: test_bsddb3 (3 min 2 sec)
+test_commands skipped -- Not posix; skipping test_commands
+0:18:49 [372/403/3] test_startfile passed -- running: test_bsddb3 (3 min 3 sec)
+beginning 6 repetitions
+123456
+......
+0:18:49 [373/403/3] test_spwd skipped -- running: test_bsddb3 (3 min 3 sec)
+test_spwd skipped -- No module named spwd
+0:18:50 [374/403/3] test_codeccallbacks passed -- running: test_bsddb3 (3 min 4 sec)
+beginning 6 repetitions
+123456
+......
+0:18:51 [375/403/3] test_sunau passed -- running: test_bsddb3 (3 min 5 sec)
+beginning 6 repetitions
+123456
+......
+0:18:53 [376/403/3] test_threadedtempfile passed -- running: test_bsddb3 (3 min 7 sec)
+beginning 6 repetitions
+123456
+......
+0:18:53 [377/403/3] test_email_codecs passed -- running: test_bsddb3 (3 min 7 sec)
+beginning 6 repetitions
+123456
+......
+0:19:01 [378/403/3] test_cmd_line_script passed -- running: test_largefile (31 sec 438 ms), test_bsddb3 (3 min 15 sec)
+beginning 6 repetitions
+123456
+......
+0:19:02 [379/403/3] test_memoryio passed -- running: test_largefile (32 sec 422 ms), test_bsddb3 (3 min 16 sec)
+beginning 6 repetitions
+123456
+......
+0:19:03 [380/403/3] test_dummy_thread passed -- running: test_largefile (32 sec 720 ms), test_bsddb3 (3 min 17 sec)
+beginning 6 repetitions
+123456
+......
+0:19:05 [381/403/3] test_pyclbr passed -- running: test_largefile (34 sec 767 ms), test_bsddb3 (3 min 19 sec)
+beginning 6 repetitions
+123456
+......
+0:19:08 [382/403/3] test_set passed -- running: test_largefile (38 sec 500 ms), test_bsddb3 (3 min 22 sec)
+beginning 6 repetitions
+123456
+......
+0:19:09 [383/403/3] test_pstats passed -- running: test_weakref (30 sec 142 ms), test_largefile (38 sec 750 ms), test_bsddb3 (3 min 23 sec)
+beginning 6 repetitions
+123456
+......
+0:19:09 [384/403/3] test_dictcomps passed -- running: test_weakref (30 sec 423 ms), test_largefile (39 sec 32 ms), test_bsddb3 (3 min 23 sec)
+beginning 6 repetitions
+123456
+......
+0:19:09 [385/403/3] test_binhex passed -- running: test_weakref (30 sec 736 ms), test_largefile (39 sec 345 ms), test_bsddb3 (3 min 23 sec)
+beginning 6 repetitions
+123456
+......
+0:19:11 [386/403/3] test_weakref passed (32 sec 642 ms) -- running: test_largefile (41 sec 500 ms), test_bsddb3 (3 min 25 sec)
+beginning 6 repetitions
+123456
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+.
+0:19:13 [387/403/3] test_ucn passed -- running: test_largefile (43 sec 63 ms), test_bsddb3 (3 min 27 sec)
+beginning 6 repetitions
+123456
+......
+0:19:13 [388/403/3] test_bastion passed -- running: test_largefile (43 sec 329 ms), test_bsddb3 (3 min 27 sec)
+beginning 6 repetitions
+123456
+......
+0:19:22 [389/403/3] test_idle passed -- running: test_largefile (52 sec 172 ms), test_bsddb3 (3 min 36 sec)
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command:  application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+beginning 6 repetitions
+123456
+......
+0:19:27 [390/403/3] test_pow passed -- running: test_largefile (56 sec 892 ms), test_bsddb3 (3 min 41 sec)
+beginning 6 repetitions
+123456
+......
+0:19:31 [391/403/3] test_urllib2net passed -- running: test_largefile (1 min 658 ms), test_bsddb3 (3 min 45 sec)
+beginning 6 repetitions
+123456
+......
+0:19:44 [392/403/3] test_marshal passed -- running: test_largefile (1 min 13 sec), test_bsddb3 (3 min 58 sec)
+beginning 6 repetitions
+123456
+......
+0:19:45 [393/403/3] test_generators passed -- running: test_largefile (1 min 14 sec), test_bsddb3 (3 min 59 sec)
+beginning 6 repetitions
+123456
+......
+0:19:45 [394/403/3] test_errno passed -- running: test_largefile (1 min 15 sec), test_bsddb3 (3 min 59 sec)
+beginning 6 repetitions
+123456
+......
+0:19:46 [395/403/3] test_imageop passed -- running: test_largefile (1 min 16 sec), test_bsddb3 (4 min 550 ms)
+beginning 6 repetitions
+123456
+......
+0:19:46 [396/403/3] test_py_compile passed -- running: test_largefile (1 min 16 sec), test_bsddb3 (4 min 848 ms)
+beginning 6 repetitions
+123456
+......
+0:19:47 [397/403/3] test_compileall passed -- running: test_largefile (1 min 16 sec), test_bsddb3 (4 min 1 sec)
+beginning 6 repetitions
+123456
+......
+0:19:48 [398/403/3] test_unicode passed -- running: test_largefile (1 min 18 sec), test_bsddb3 (4 min 2 sec)
+beginning 6 repetitions
+123456
+......
+0:19:49 [399/403/3] test_sys_settrace passed -- running: test_largefile (1 min 19 sec), test_bsddb3 (4 min 3 sec)
+beginning 6 repetitions
+123456
+......
+0:19:51 [400/403/3] test_compile passed -- running: test_largefile (1 min 21 sec), test_bsddb3 (4 min 5 sec)
+beginning 6 repetitions
+123456
+......
+running: test_zipfile (34 sec 204 ms), test_largefile (1 min 51 sec), test_bsddb3 (4 min 35 sec)
+0:20:24 [401/403/3] test_zipfile passed (37 sec 375 ms) -- running: test_largefile (1 min 54 sec), test_bsddb3 (4 min 38 sec)
+beginning 6 repetitions
+123456
+......
+running: test_largefile (2 min 24 sec), test_bsddb3 (5 min 8 sec)
+running: test_largefile (2 min 54 sec), test_bsddb3 (5 min 38 sec)
+running: test_largefile (3 min 24 sec), test_bsddb3 (6 min 8 sec)
+running: test_largefile (3 min 54 sec), test_bsddb3 (6 min 38 sec)
+running: test_largefile (4 min 24 sec), test_bsddb3 (7 min 8 sec)
+running: test_largefile (4 min 54 sec), test_bsddb3 (7 min 38 sec)
+running: test_largefile (5 min 24 sec), test_bsddb3 (8 min 8 sec)
+running: test_largefile (5 min 54 sec), test_bsddb3 (8 min 38 sec)
+running: test_largefile (6 min 24 sec), test_bsddb3 (9 min 8 sec)
+running: test_largefile (6 min 54 sec), test_bsddb3 (9 min 38 sec)
+running: test_largefile (7 min 24 sec), test_bsddb3 (10 min 8 sec)
+running: test_largefile (7 min 54 sec), test_bsddb3 (10 min 38 sec)
+running: test_largefile (8 min 24 sec), test_bsddb3 (11 min 8 sec)
+0:27:23 [402/403/3] test_largefile passed (8 min 53 sec) -- running: test_bsddb3 (11 min 37 sec)
+beginning 6 repetitions
+123456
+......
+running: test_bsddb3 (12 min 7 sec)
+running: test_bsddb3 (12 min 37 sec)
+running: test_bsddb3 (13 min 7 sec)
+running: test_bsddb3 (13 min 37 sec)
+running: test_bsddb3 (14 min 7 sec)
+running: test_bsddb3 (14 min 37 sec)
+running: test_bsddb3 (15 min 8 sec)
+running: test_bsddb3 (15 min 38 sec)
+running: test_bsddb3 (16 min 8 sec)
+running: test_bsddb3 (16 min 38 sec)
+running: test_bsddb3 (17 min 8 sec)
+running: test_bsddb3 (17 min 38 sec)
+running: test_bsddb3 (18 min 8 sec)
+running: test_bsddb3 (18 min 38 sec)
+running: test_bsddb3 (19 min 8 sec)
+running: test_bsddb3 (19 min 38 sec)
+running: test_bsddb3 (20 min 8 sec)
+running: test_bsddb3 (20 min 38 sec)
+running: test_bsddb3 (21 min 8 sec)
+running: test_bsddb3 (21 min 38 sec)
+running: test_bsddb3 (22 min 8 sec)
+running: test_bsddb3 (22 min 38 sec)
+running: test_bsddb3 (23 min 8 sec)
+running: test_bsddb3 (23 min 38 sec)
+running: test_bsddb3 (24 min 8 sec)
+running: test_bsddb3 (24 min 38 sec)
+running: test_bsddb3 (25 min 8 sec)
+running: test_bsddb3 (25 min 38 sec)
+running: test_bsddb3 (26 min 8 sec)
+running: test_bsddb3 (26 min 38 sec)
+running: test_bsddb3 (27 min 8 sec)
+running: test_bsddb3 (27 min 38 sec)
+running: test_bsddb3 (28 min 8 sec)
+running: test_bsddb3 (28 min 38 sec)
+running: test_bsddb3 (29 min 8 sec)
+running: test_bsddb3 (29 min 38 sec)
+running: test_bsddb3 (30 min 8 sec)
+running: test_bsddb3 (30 min 38 sec)
+running: test_bsddb3 (31 min 8 sec)
+running: test_bsddb3 (31 min 38 sec)
+running: test_bsddb3 (32 min 8 sec)
+running: test_bsddb3 (32 min 38 sec)
+running: test_bsddb3 (33 min 8 sec)
+running: test_bsddb3 (33 min 38 sec)
+running: test_bsddb3 (34 min 8 sec)
+running: test_bsddb3 (34 min 38 sec)
+running: test_bsddb3 (35 min 8 sec)
+running: test_bsddb3 (35 min 38 sec)
+running: test_bsddb3 (36 min 8 sec)
+running: test_bsddb3 (36 min 38 sec)
+running: test_bsddb3 (37 min 8 sec)
+running: test_bsddb3 (37 min 38 sec)
+running: test_bsddb3 (38 min 8 sec)
+running: test_bsddb3 (38 min 38 sec)
+running: test_bsddb3 (39 min 8 sec)
+running: test_bsddb3 (39 min 38 sec)
+running: test_bsddb3 (40 min 8 sec)
+running: test_bsddb3 (40 min 38 sec)
+running: test_bsddb3 (41 min 8 sec)
+running: test_bsddb3 (41 min 38 sec)
+running: test_bsddb3 (42 min 8 sec)
+running: test_bsddb3 (42 min 38 sec)
+running: test_bsddb3 (43 min 8 sec)
+running: test_bsddb3 (43 min 38 sec)
+running: test_bsddb3 (44 min 8 sec)
+running: test_bsddb3 (44 min 38 sec)
+running: test_bsddb3 (45 min 8 sec)
+running: test_bsddb3 (45 min 38 sec)
+running: test_bsddb3 (46 min 8 sec)
+running: test_bsddb3 (46 min 38 sec)
+running: test_bsddb3 (47 min 8 sec)
+running: test_bsddb3 (47 min 38 sec)
+running: test_bsddb3 (48 min 8 sec)
+running: test_bsddb3 (48 min 38 sec)
+running: test_bsddb3 (49 min 8 sec)
+running: test_bsddb3 (49 min 38 sec)
+running: test_bsddb3 (50 min 8 sec)
+running: test_bsddb3 (50 min 38 sec)
+running: test_bsddb3 (51 min 8 sec)
+running: test_bsddb3 (51 min 38 sec)
+running: test_bsddb3 (52 min 8 sec)
+running: test_bsddb3 (52 min 38 sec)
+running: test_bsddb3 (53 min 8 sec)
+running: test_bsddb3 (53 min 38 sec)
+running: test_bsddb3 (54 min 8 sec)
+running: test_bsddb3 (54 min 38 sec)
+running: test_bsddb3 (55 min 8 sec)
+running: test_bsddb3 (55 min 38 sec)
+running: test_bsddb3 (56 min 8 sec)
+running: test_bsddb3 (56 min 38 sec)
+running: test_bsddb3 (57 min 8 sec)
+running: test_bsddb3 (57 min 38 sec)
+running: test_bsddb3 (58 min 8 sec)
+running: test_bsddb3 (58 min 38 sec)
+running: test_bsddb3 (59 min 8 sec)
+running: test_bsddb3 (59 min 38 sec)
+running: test_bsddb3 (1 hour 8 sec)
+running: test_bsddb3 (1 hour 38 sec)
+running: test_bsddb3 (1 hour 1 min)
+running: test_bsddb3 (1 hour 1 min)
+running: test_bsddb3 (1 hour 2 min)
+running: test_bsddb3 (1 hour 2 min)
+running: test_bsddb3 (1 hour 3 min)
+running: test_bsddb3 (1 hour 3 min)
+running: test_bsddb3 (1 hour 4 min)
+running: test_bsddb3 (1 hour 4 min)
+running: test_bsddb3 (1 hour 5 min)
+running: test_bsddb3 (1 hour 5 min)
+running: test_bsddb3 (1 hour 6 min)
+1:21:58 [403/403/3] test_bsddb3 passed (1 hour 6 min)
+test_bsddb3 still working, be patient...
+  test_bsddb3 still working, be patient...
+  test_bsddb3 still working, be patient...
+  test_bsddb3 still working, be patient...
+  test_bsddb3 still working, be patient...
+  test_bsddb3 still working, be patient...
+
+== Tests result: FAILURE ==
+
+358 tests OK.
+
+10 slowest tests:
+- test_bsddb3: 3971.8s
+- test_largefile: 533.3s
+- test_mailbox: 295.3s
+- test_bufio: 281.6s
+- test_mmap: 265.2s
+- test_multiprocessing: 257.9s
+- test_dumbdbm: 142.3s
+- test_lib2to3: 125.0s
+- test_urllib2_localnet: 118.6s
+- test_decimal: 118.4s
+
+3 tests failed:
+    test_httplib test_ssl test_urllibnet
+
+42 tests skipped:
+    test_aepack test_al test_applesingle test_bsddb185 test_cd test_cl
+    test_commands test_crypt test_curses test_dbm test_dl test_epoll
+    test_fcntl test_fork1 test_gdb test_gdbm test_gl test_grp
+    test_imgfile test_ioctl test_kqueue test_linuxaudiodev test_macos
+    test_macostools test_mhlib test_nis test_openpty test_ossaudiodev
+    test_pipes test_poll test_posix test_pty test_pwd test_readline
+    test_resource test_scriptpackages test_spwd test_sunaudiodev
+    test_threadsignals test_wait3 test_wait4 test_zipfile64
+2 skips unexpected on win32:
+    test_gdb test_readline
+
+Re-running failed tests in verbose mode
+Re-running test 'test_ssl' in verbose mode
+beginning 6 repetitions
+123456
+Berkeley DB 4.7.25: (May 15, 2008)
+Test path prefix:  d:\temp\z-test_bsddb3-4536
+XXX: timeout happened beforestartup was confirmed - see issue 3892
+.Berkeley DB 4.7.25: (May 15, 2008)
+Test path prefix:  d:\temp\z-test_bsddb3-4536
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+XXX: timeout happened beforestartup was confirmed - see issue 3892
+.Berkeley DB 4.7.25: (May 15, 2008)
+Test path prefix:  d:\temp\z-test_bsddb3-4536
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+XXX: timeout happened beforestartup was confirmed - see issue 3892
+.Berkeley DB 4.7.25: (May 15, 2008)
+Test path prefix:  d:\temp\z-test_bsddb3-4536
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+XXX: timeout happened beforestartup was confirmed - see issue 3892
+.Berkeley DB 4.7.25: (May 15, 2008)
+Test path prefix:  d:\temp\z-test_bsddb3-4536
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+XXX: timeout happened beforestartup was confirmed - see issue 3892
+.Berkeley DB 4.7.25: (May 15, 2008)
+Test path prefix:  d:\temp\z-test_bsddb3-4536
+D:\buildarea\2.7.ware-win81-release.refleak\build\lib\threading.py:846: DeprecationWarning: sys.exc_clear() not supported in 3.x; use except clauses
+  self.__exc_clear()
+XXX: timeout happened beforestartup was confirmed - see issue 3892
+.
+test_ssl: testing with 'OpenSSL 1.0.2q  20 Nov 2018' (1, 0, 2, 17, 15)
+          under Windows ('8', '6.2.9200', 'SP0', u'Multiprocessor Free')
+          HAS_SNI = True
+          OP_ALL = 0x-7ffffc01
+          OP_NO_TLSv1_1 = 0x10000000
+test__create_stdlib_context (test.test_ssl.ContextTests) ... ok
+test__https_verify_certificates (test.test_ssl.ContextTests) ... ok
+test__https_verify_envvar (test.test_ssl.ContextTests) ... ok
+test_cert_store_stats (test.test_ssl.ContextTests) ... ok
+test_check_hostname (test.test_ssl.ContextTests) ... ok
+test_ciphers (test.test_ssl.ContextTests) ... ok
+test_constructor (test.test_ssl.ContextTests) ... ok
+test_create_default_context (test.test_ssl.ContextTests) ... ok
+test_get_ca_certs (test.test_ssl.ContextTests) ... ok
+test_load_cert_chain (test.test_ssl.ContextTests) ... ok
+test_load_default_certs (test.test_ssl.ContextTests) ... ok
+test_load_default_certs_env (test.test_ssl.ContextTests) ... skipped 'not-Windows specific'
+test_load_default_certs_env_windows (test.test_ssl.ContextTests) ... ok
+test_load_dh_params (test.test_ssl.ContextTests) ... ok
+test_load_verify_cadata (test.test_ssl.ContextTests) ... ok
+test_load_verify_locations (test.test_ssl.ContextTests) ... ok
+test_options (test.test_ssl.ContextTests) ... ok
+test_protocol (test.test_ssl.ContextTests) ... ok
+test_session_stats (test.test_ssl.ContextTests) ... ok
+test_set_default_verify_paths (test.test_ssl.ContextTests) ... ok
+test_set_ecdh_curve (test.test_ssl.ContextTests) ... ok
+test_sni_callback (test.test_ssl.ContextTests) ... ok
+test_sni_callback_refcycle (test.test_ssl.ContextTests) ... ok
+test_verify_flags (test.test_ssl.ContextTests) ... ok
+test_verify_mode (test.test_ssl.ContextTests) ... ok
+test_sslwrap_simple (test.test_ssl.BasicTests) ... ok
+test_DER_to_PEM (test.test_ssl.BasicSocketTests) ... ok
+test_asn1object (test.test_ssl.BasicSocketTests) ... ok
+test_cert_time_to_seconds (test.test_ssl.BasicSocketTests) ... ok
+test_cert_time_to_seconds_locale (test.test_ssl.BasicSocketTests) ... skipped 'locale-specific month name needs to be different from C locale'
+test_cert_time_to_seconds_timezone (test.test_ssl.BasicSocketTests) ... skipped 'local time needs to be different from UTC'
+test_constants (test.test_ssl.BasicSocketTests) ... ok
+test_empty_cert (test.test_ssl.BasicSocketTests)
+Wrapping with an empty cert file ... ok
+test_enum_certificates (test.test_ssl.BasicSocketTests) ... ok
+test_enum_crls (test.test_ssl.BasicSocketTests) ... ok
+test_errors (test.test_ssl.BasicSocketTests) ... ok
+test_get_default_verify_paths (test.test_ssl.BasicSocketTests) ... ok
+test_malformed_cert (test.test_ssl.BasicSocketTests)
+Wrapping with a badly formatted certificate (syntax error) ... ok
+test_malformed_key (test.test_ssl.BasicSocketTests)
+Wrapping with a badly formatted key (syntax error) ... ok
+test_match_hostname (test.test_ssl.BasicSocketTests) ... ok
+test_openssl_version (test.test_ssl.BasicSocketTests) ... ok
+test_parse_all_sans (test.test_ssl.BasicSocketTests) ... ok
+test_parse_cert (test.test_ssl.BasicSocketTests) ... 
+{'issuer': ((('countryName', u'XY'),),
+            (('localityName', u'Castle Anthrax'),),
+            (('organizationName', u'Python Software Foundation'),),
+            (('commonName', u'localhost'),)),
+ 'notAfter': 'Aug 26 14:23:15 2028 GMT',
+ 'notBefore': u'Aug 29 14:23:15 2018 GMT',
+ 'serialNumber': u'98A7CF88C74A32ED',
+ 'subject': ((('countryName', u'XY'),),
+             (('localityName', u'Castle Anthrax'),),
+             (('organizationName', u'Python Software Foundation'),),
+             (('commonName', u'localhost'),)),
+ 'subjectAltName': (('DNS', 'localhost'),),
+ 'version': 3L}
+
+{'OCSP': (u'http://ocsp.verisign.com',),
+ 'caIssuers': (u'http://SVRIntl-G3-aia.verisign.com/SVRIntlG3.cer',),
+ 'crlDistributionPoints': (u'http://SVRIntl-G3-crl.verisign.com/SVRIntlG3.crl',),
+ 'issuer': ((('countryName', u'US'),),
+            (('organizationName', u'VeriSign, Inc.'),),
+            (('organizationalUnitName', u'VeriSign Trust Network'),),
+            (('organizationalUnitName',
+              u'Terms of use at https://www.verisign.com/rpa (c)10'),),
+            (('commonName',
+              u'VeriSign Class 3 International Server CA - G3'),)),
+ 'notAfter': 'Sep 20 23:59:59 2012 GMT',
+ 'notBefore': u'Sep 21 00:00:00 2011 GMT',
+ 'serialNumber': u'2EE6EA7640A075CEE5005F4D7C79549A',
+ 'subject': ((('countryName', u'FI'),),
+             (('stateOrProvinceName', u'Espoo'),),
+             (('localityName', u'Espoo'),),
+             (('organizationName', u'Nokia'),),
+             (('organizationalUnitName', u'BI'),),
+             (('commonName', u'projects.developer.nokia.com'),)),
+ 'subjectAltName': (('DNS', 'projects.developer.nokia.com'),
+                    ('DNS', 'projects.forum.nokia.com')),
+ 'version': 3L}
+ok
+test_parse_cert_CVE_2013_4238 (test.test_ssl.BasicSocketTests) ... 
+{'issuer': ((('countryName', u'US'),),
+            (('stateOrProvinceName', u'Oregon'),),
+            (('localityName', u'Beaverton'),),
+            (('organizationName', u'Python Software Foundation'),),
+            (('organizationalUnitName', u'Python Core Development'),),
+            (('commonName', u'null.python.org\x00example.org'),),
+            (('emailAddress', u'python-dev@python.org'),)),
+ 'notAfter': 'Aug  7 13:12:52 2013 GMT',
+ 'notBefore': u'Aug  7 13:11:52 2013 GMT',
+ 'serialNumber': u'00',
+ 'subject': ((('countryName', u'US'),),
+             (('stateOrProvinceName', u'Oregon'),),
+             (('localityName', u'Beaverton'),),
+             (('organizationName', u'Python Software Foundation'),),
+             (('organizationalUnitName', u'Python Core Development'),),
+             (('commonName', u'null.python.org\x00example.org'),),
+             (('emailAddress', u'python-dev@python.org'),)),
+ 'subjectAltName': (('DNS', 'altnull.python.org\x00example.com'),
+                    ('email', 'null@python.org\x00user@example.org'),
+                    ('URI', 'http://null.python.org\x00http://example.org'),
+                    ('IP Address', '192.0.2.1'),
+                    ('IP Address', '2001:DB8:0:0:0:0:0:1\n')),
+ 'version': 3L}
+ok
+test_parse_cert_CVE_2019_5010 (test.test_ssl.BasicSocketTests) ... 
+{'issuer': ((('countryName', u'UK'),), (('commonName', u'cody-ca'),)),
+ 'notAfter': 'Jun 14 18:00:58 2028 GMT',
+ 'notBefore': u'Jun 18 18:00:58 2018 GMT',
+ 'serialNumber': u'02',
+ 'subject': ((('countryName', u'UK'),),
+             (('commonName', u'codenomicon-vm-2.test.lal.cisco.com'),)),
+ 'subjectAltName': (('DNS', 'codenomicon-vm-2.test.lal.cisco.com'),),
+ 'version': 3L}
+ok
+test_purpose_enum (test.test_ssl.BasicSocketTests) ... ok
+test_random (test.test_ssl.BasicSocketTests) ... 
+ RAND_status is 1 (sufficient randomness)
+ok
+test_refcycle (test.test_ssl.BasicSocketTests) ... ok
+test_server_side (test.test_ssl.BasicSocketTests) ... ok
+test_timeout (test.test_ssl.BasicSocketTests) ... ok
+test_tls_unique_channel_binding (test.test_ssl.BasicSocketTests) ... ok
+test_unknown_channel_binding (test.test_ssl.BasicSocketTests) ... ok
+test_unsupported_dtls (test.test_ssl.BasicSocketTests) ... ok
+test_wrapped_unconnected (test.test_ssl.BasicSocketTests) ... ok
+test_lib_reason (test.test_ssl.SSLErrorTests) ... ok
+test_str (test.test_ssl.SSLErrorTests) ... ok
+test_subclass (test.test_ssl.SSLErrorTests) ... ok
+test_ciphers (test.test_ssl.NetworkedTests) ... ok
+test_connect (test.test_ssl.NetworkedTests) ... ERROR
+test_connect_cadata (test.test_ssl.NetworkedTests) ... ERROR
+test_connect_capath (test.test_ssl.NetworkedTests) ... ERROR
+test_connect_ex (test.test_ssl.NetworkedTests) ... ERROR
+test_connect_ex_error (test.test_ssl.NetworkedTests) ... ok
+test_connect_with_context (test.test_ssl.NetworkedTests) ... ERROR
+test_context_setget (test.test_ssl.NetworkedTests) ... ok
+test_get_ca_certs_capath (test.test_ssl.NetworkedTests) ... ERROR
+test_get_server_certificate (test.test_ssl.NetworkedTests) ... [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+ERROR
+test_makefile_close (test.test_ssl.NetworkedTests) ... skipped "Can't use a socket as a file under Windows"
+test_non_blocking_connect_ex (test.test_ssl.NetworkedTests) ... ERROR
+test_non_blocking_handshake (test.test_ssl.NetworkedTests) ... 
+Needed 3 calls to do_handshake() to establish session.
+ok
+test_timeout_connect_ex (test.test_ssl.NetworkedTests) ... ok
+test_alpn_protocols (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 61960)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61962)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61964)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61966)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_asyncore_server (test.test_ssl.ThreadedTests)
+Check the example asyncore integration. ... 
+ server:  new connection from 127.0.0.1:61968
+ client:  sending 'FOO\n'...
+ server:  read 'FOO\n' from client
+ client:  read 'foo\n'
+ client:  closing connection.
+ client:  connection closed.
+ server:  read 'over\n' from client
+ cleanup: stopping server.
+ cleanup: joining server thread.
+ server:  closed connection <ssl.SSLSocket object at 0x0000000003076698>
+ server:  read '' from client
+ cleanup: successfully joined.
+ok
+test_check_hostname (test.test_ssl.ThreadedTests) ... 
+ server:  new connection from ('127.0.0.1', 61970)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ server:  new connection from ('127.0.0.1', 61972)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ok
+test_compression (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 61975)
+ client:  sending 'FOO\n'...
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ got compression: None
+ok
+test_compression_disabled (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 61977)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_crl_check (test.test_ssl.ThreadedTests) ... 
+ server:  new connection from ('127.0.0.1', 61979)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ server:  new connection from ('127.0.0.1', 61981)
+
+ server:  bad connection attempt from ('127.0.0.1', 61981):
+Traceback (most recent call last):
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1699, in wrap_conn
+    self.sock, server_side=True)
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+ SSLError: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:727)
+ server:  new connection from ('127.0.0.1', 61983)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ok
+test_default_ecdh_curve (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 61985)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ok
+test_dh_params (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 61987)
+ server: connection cipher is now ('DHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_do_handshake_enotconn (test.test_ssl.ThreadedTests) ... ok
+test_echo (test.test_ssl.ThreadedTests)
+Basic test of an SSL client connecting to a server ... 
+ server:  new connection from ('127.0.0.1', 61989)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61991)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61993)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61995)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 61997)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_getpeercert (test.test_ssl.ThreadedTests) ... 
+{'issuer': ((('countryName', u'XY'),),
+            (('localityName', u'Castle Anthrax'),),
+            (('organizationName', u'Python Software Foundation'),),
+            (('commonName', u'localhost'),)),
+ 'notAfter': 'Aug 26 14:23:15 2028 GMT',
+ 'notBefore': u'Aug 29 14:23:15 2018 GMT',
+ 'serialNumber': u'98A7CF88C74A32ED',
+ 'subject': ((('countryName', u'XY'),),
+             (('localityName', u'Castle Anthrax'),),
+             (('organizationName', u'Python Software Foundation'),),
+             (('commonName', u'localhost'),)),
+ 'subjectAltName': (('DNS', 'localhost'),),
+ 'version': 3L}
+Connection cipher is ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256).
+ok
+test_getpeercert_enotconn (test.test_ssl.ThreadedTests) ... ok
+test_handshake_timeout (test.test_ssl.ThreadedTests) ... ok
+test_no_shared_ciphers (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62004)
+
+ server:  bad connection attempt from ('127.0.0.1', 62004):
+Traceback (most recent call last):
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1699, in wrap_conn
+    self.sock, server_side=True)
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+   File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+ SSLError: [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:727)
+ok
+test_npn_protocols (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62006)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now http/1.1
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 62008)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now http/1.1
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 62010)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now spdy/2
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ server:  new connection from ('127.0.0.1', 62012)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now abc
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_protocol_sslv2 (test.test_ssl.ThreadedTests)
+Connecting to an SSLv2 server with various client options ... skipped 'OpenSSL is compiled without SSLv2 support'
+test_protocol_sslv23 (test.test_ssl.ThreadedTests)
+Connecting to an SSLv23 server with various client options ... 
+ {PROTOCOL_SSLv3->PROTOCOL_TLS} CERT_NONE
+ PROTOCOL_TLS->PROTOCOL_TLS CERT_NONE
+ PROTOCOL_TLSv1->PROTOCOL_TLS CERT_NONE
+ {PROTOCOL_SSLv3->PROTOCOL_TLS} CERT_OPTIONAL
+ PROTOCOL_TLS->PROTOCOL_TLS CERT_OPTIONAL
+ PROTOCOL_TLSv1->PROTOCOL_TLS CERT_OPTIONAL
+ {PROTOCOL_SSLv3->PROTOCOL_TLS} CERT_REQUIRED
+ PROTOCOL_TLS->PROTOCOL_TLS CERT_REQUIRED
+ PROTOCOL_TLSv1->PROTOCOL_TLS CERT_REQUIRED
+ {PROTOCOL_SSLv3->PROTOCOL_TLS} CERT_NONE
+ PROTOCOL_TLS->PROTOCOL_TLS CERT_NONE
+ {PROTOCOL_TLSv1->PROTOCOL_TLS} CERT_NONE
+ok
+test_protocol_sslv3 (test.test_ssl.ThreadedTests)
+Connecting to an SSLv3 server with various client options ... 
+ PROTOCOL_SSLv3->PROTOCOL_SSLv3 CERT_NONE
+ PROTOCOL_SSLv3->PROTOCOL_SSLv3 CERT_OPTIONAL
+ PROTOCOL_SSLv3->PROTOCOL_SSLv3 CERT_REQUIRED
+ {PROTOCOL_TLS->PROTOCOL_SSLv3} CERT_NONE
+ {PROTOCOL_TLSv1->PROTOCOL_SSLv3} CERT_NONE
+ {PROTOCOL_TLS->PROTOCOL_SSLv3} CERT_NONE
+ok
+test_protocol_tlsv1 (test.test_ssl.ThreadedTests)
+Connecting to a TLSv1 server with various client options ... 
+ PROTOCOL_TLSv1->PROTOCOL_TLSv1 CERT_NONE
+ PROTOCOL_TLSv1->PROTOCOL_TLSv1 CERT_OPTIONAL
+ PROTOCOL_TLSv1->PROTOCOL_TLSv1 CERT_REQUIRED
+ {PROTOCOL_SSLv3->PROTOCOL_TLSv1} CERT_NONE
+ {PROTOCOL_TLS->PROTOCOL_TLSv1} CERT_NONE
+ok
+test_protocol_tlsv1_1 (test.test_ssl.ThreadedTests)
+Connecting to a TLSv1.1 server with various client options. ... 
+ PROTOCOL_TLSv1_1->PROTOCOL_TLSv1_1 CERT_NONE
+ {PROTOCOL_SSLv3->PROTOCOL_TLSv1_1} CERT_NONE
+ {PROTOCOL_TLS->PROTOCOL_TLSv1_1} CERT_NONE
+ PROTOCOL_TLSv1_1->PROTOCOL_TLS CERT_NONE
+ {PROTOCOL_TLSv1->PROTOCOL_TLSv1_1} CERT_NONE
+ {PROTOCOL_TLSv1_1->PROTOCOL_TLSv1} CERT_NONE
+ok
+test_protocol_tlsv1_2 (test.test_ssl.ThreadedTests)
+Connecting to a TLSv1.2 server with various client options. ... 
+ PROTOCOL_TLSv1_2->PROTOCOL_TLSv1_2 CERT_NONE
+ {PROTOCOL_SSLv3->PROTOCOL_TLSv1_2} CERT_NONE
+ {PROTOCOL_TLS->PROTOCOL_TLSv1_2} CERT_NONE
+ PROTOCOL_TLSv1_2->PROTOCOL_TLS CERT_NONE
+ {PROTOCOL_TLSv1->PROTOCOL_TLSv1_2} CERT_NONE
+ {PROTOCOL_TLSv1_2->PROTOCOL_TLSv1} CERT_NONE
+ {PROTOCOL_TLSv1_1->PROTOCOL_TLSv1_2} CERT_NONE
+ {PROTOCOL_TLSv1_2->PROTOCOL_TLSv1_1} CERT_NONE
+ok
+test_read_write_after_close_raises_valuerror (test.test_ssl.ThreadedTests) ... ok
+test_recv_send (test.test_ssl.ThreadedTests)
+Test recv(), send() and friends. ... 
+ server:  new connection from ('127.0.0.1', 62090)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ok
+test_recv_zero (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62092)
+ server: connection cipher is now ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ok
+test_rude_shutdown (test.test_ssl.ThreadedTests)
+A brutal shutdown of an SSL server should raise an OSError ... ok
+test_selected_alpn_protocol (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62096)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_selected_alpn_protocol_if_server_uses_alpn (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62098)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_selected_npn_protocol (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62100)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  sending 'FOO\n'...
+ client:  read 'foo\n'
+ client:  closing connection.
+ok
+test_server_accept (test.test_ssl.ThreadedTests) ... ok
+test_sni_callback (test.test_ssl.ThreadedTests) ...  server:  new connection from ('127.0.0.1', 62104)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ server:  new connection from ('127.0.0.1', 62106)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ server:  new connection from ('127.0.0.1', 62108)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ok
+test_sni_callback_alert (test.test_ssl.ThreadedTests) ... ok
+test_sni_callback_raising (test.test_ssl.ThreadedTests) ... ok
+test_sni_callback_wrong_return_type (test.test_ssl.ThreadedTests) ... ok
+test_socketserver (test.test_ssl.ThreadedTests)
+Using a SocketServer to create and manage SSL connections. ... 
+ server (('127.0.0.1', 62115):62115 ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)):
+   [09/May/2019 01:23:23] "GET /keycert.pem HTTP/1.1" 200 -
+ client: read 4124 bytes from remote server '<HTTPSServerThread <HTTPSServer win81bb:62115>>'
+stopping HTTPS server
+joining HTTPS thread
+ok
+test_starttls (test.test_ssl.ThreadedTests)
+Switching from clear text to encrypted and back again. ... 
+ client:  sending 'msg 1'...
+ server:  new connection from ('127.0.0.1', 62119)
+ server: read 'msg 1' (unencrypted), sending back 'msg 1' (unencrypted)...
+ client:  read 'msg 1' from server
+ client:  sending 'MSG 2'...
+ server: read 'MSG 2' (unencrypted), sending back 'msg 2' (unencrypted)...
+ client:  read 'msg 2' from server
+ client:  sending 'STARTTLS'...
+ server: read STARTTLS from client, sending OK...
+ client:  read 'ok' from server, starting TLS...
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ client:  sending 'MSG 3'...
+ server: read 'MSG 3' (encrypted), sending back 'msg 3' (encrypted)...
+ client:  read 'msg 3' from server
+ client:  sending 'msg 4'...
+ server: read 'msg 4' (encrypted), sending back 'msg 4' (encrypted)...
+ client:  read 'msg 4' from server
+ client:  sending 'ENDTLS'...
+ server: read ENDTLS from client, sending OK...
+ client:  read 'ok' from server, ending TLS...
+ server: connection is now unencrypted...
+ client:  sending 'msg 5'...
+ server: read 'msg 5' (unencrypted), sending back 'msg 5' (unencrypted)...
+ client:  read 'msg 5' from server
+ client:  sending 'msg 6'...
+ server: read 'msg 6' (unencrypted), sending back 'msg 6' (unencrypted)...
+ client:  read 'msg 6' from server
+ client:  closing connection.
+ server: client closed connection
+ok
+test_tls1_3 (test.test_ssl.ThreadedTests) ... skipped 'test requires TLSv1.3 enabled OpenSSL'
+test_tls_unique_channel_binding (test.test_ssl.ThreadedTests)
+Test tls-unique channel binding. ... 
+ server:  new connection from ('127.0.0.1', 62121)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ got channel binding data: '\xb2g\xcb\\\x05\xe4\x87\xc2g|\xee\xa4'
+ server:  new connection from ('127.0.0.1', 62122)
+ server: connection cipher is now ('ECDHE-RSA-AES256-SHA', 'TLSv1/SSLv3', 256)
+ server: selected protocol is now None
+ got another channel binding data: '\x93\xea\xa4\xd0B\x8c\\v\xdd\xd4\xe5\x9b'
+ok
+test_version_basic (test.test_ssl.ThreadedTests) ... ok
+test_wrong_cert (test.test_ssl.ThreadedTests)
+Connecting when the server rejects the client's certificate ... 
+SSLError is SSLError(1, u'[SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:727)')
+ok
+
+======================================================================
+ERROR: test_connect (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1391, in test_connect
+    s.connect((REMOTE_HOST, 443))
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 864, in connect
+    self._real_connect(addr, False)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 855, in _real_connect
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_connect_cadata (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1540, in test_connect_cadata
+    s.connect((REMOTE_HOST, 443))
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 864, in connect
+    self._real_connect(addr, False)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 855, in _real_connect
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_connect_capath (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1513, in test_connect_capath
+    s.connect((REMOTE_HOST, 443))
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 864, in connect
+    self._real_connect(addr, False)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 855, in _real_connect
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_connect_ex (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1403, in test_connect_ex
+    self.assertEqual(0, s.connect_ex((REMOTE_HOST, 443)))
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 869, in connect_ex
+    return self._real_connect(addr, True)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 855, in _real_connect
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_connect_with_context (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1495, in test_connect_with_context
+    s.connect((REMOTE_HOST, 443))
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 864, in connect
+    self._real_connect(addr, False)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 855, in _real_connect
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_get_ca_certs_capath (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1646, in test_get_ca_certs_capath
+    s.connect((REMOTE_HOST, 443))
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 864, in connect
+    self._real_connect(addr, False)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 855, in _real_connect
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_get_server_certificate (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1618, in test_get_server_certificate
+    _test_get_server_certificate(REMOTE_HOST, 443, REMOTE_ROOT_CERT)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1612, in _test_get_server_certificate
+    ca_certs=cert)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 1005, in get_server_certificate
+    with closing(context.wrap_socket(sock)) as sslsock:
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+======================================================================
+ERROR: test_non_blocking_connect_ex (test.test_ssl.NetworkedTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_ssl.py", line 1426, in test_non_blocking_connect_ex
+    s.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+----------------------------------------------------------------------
+Ran 110 tests in 33.655s
+
+FAILED (errors=8, skipped=6)
+Re-running test 'test_urllibnet' in verbose mode
+beginning 6 repetitions
+123456
+test test_ssl failed -- multiple errors occurred
+testURLread (test.test_urllibnet.URLTimeoutTest) ... ok
+test_bad_address (test.test_urllibnet.urlopenNetworkTests) ... ok
+test_basic (test.test_urllibnet.urlopenNetworkTests) ... ok
+test_fileno (test.test_urllibnet.urlopenNetworkTests) ... skipped 'not appropriate for Windows'
+test_getcode (test.test_urllibnet.urlopenNetworkTests) ... ok
+test_geturl (test.test_urllibnet.urlopenNetworkTests) ... ok
+test_info (test.test_urllibnet.urlopenNetworkTests) ... ok
+test_readlines (test.test_urllibnet.urlopenNetworkTests) ... ok
+test_basic (test.test_urllibnet.urlretrieveNetworkTests) ... ok
+test_data_header (test.test_urllibnet.urlretrieveNetworkTests) ... ok
+test_header (test.test_urllibnet.urlretrieveNetworkTests) ... ok
+test_specified_path (test.test_urllibnet.urlretrieveNetworkTests) ... ok
+test_context_argument (test.test_urllibnet.urlopen_HttpsTests) ... ERROR
+
+======================================================================
+ERROR: test_context_argument (test.test_urllibnet.urlopen_HttpsTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_urllibnet.py", line 212, in test_context_argument
+    response = urllib.urlopen("https://self-signed.pythontest.net", context=context)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 844, in send
+    self.connect()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.860s
+
+FAILED (errors=1, skipped=1)
+Re-running test 'test_httplib' in verbose mode
+beginning 6 repetitions
+123456
+test test_urllibnet failed -- Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_urllibnet.py", line 212, in test_context_argument
+    response = urllib.urlopen("https://self-signed.pythontest.net", context=context)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 87, in urlopen
+    return opener.open(url)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\urllib.py", line 443, in open_https
+    h.endheaders(data)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 844, in send
+    self.connect()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+IOError: [Errno socket error] [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+test_auto_headers (test.test_httplib.HeaderTests) ... ok
+test_blank_line_forms (test.test_httplib.HeaderTests) ... ok
+test_content_length_0 (test.test_httplib.HeaderTests) ... ok
+test_from_line (test.test_httplib.HeaderTests) ... ok
+test_invalid_headers (test.test_httplib.HeaderTests) ... ok
+test_ipv6host_header (test.test_httplib.HeaderTests) ... ok
+test_malformed_headers_coped_with (test.test_httplib.HeaderTests) ... ok
+test_malformed_truncation (test.test_httplib.HeaderTests) ... ok
+test_parse_all_octets (test.test_httplib.HeaderTests) ... ok
+test_putheader (test.test_httplib.HeaderTests) ... ok
+test_responses (test.test_httplib.OfflineTest) ... ok
+test_bad_status_repr (test.test_httplib.BasicTest) ... ok
+test_chunked (test.test_httplib.BasicTest) ... ok
+test_chunked_head (test.test_httplib.BasicTest) ... ok
+test_early_eof (test.test_httplib.BasicTest) ... ok
+test_epipe (test.test_httplib.BasicTest) ... ok
+test_error_leak (test.test_httplib.BasicTest) ... ok
+test_filenoattr (test.test_httplib.BasicTest) ... ok
+test_host_port (test.test_httplib.BasicTest) ... ok
+test_incomplete_read (test.test_httplib.BasicTest) ... ok
+test_negative_content_length (test.test_httplib.BasicTest) ... ok
+test_overflowing_chunked_line (test.test_httplib.BasicTest) ... ok
+test_overflowing_header_line (test.test_httplib.BasicTest) ... ok
+test_overflowing_status_line (test.test_httplib.BasicTest) ... skipped 'disabled for HTTP 0.9 support'
+test_partial_reads (test.test_httplib.BasicTest) ... ok
+test_partial_reads_incomplete_body (test.test_httplib.BasicTest) ... ok
+test_partial_reads_no_content_length (test.test_httplib.BasicTest) ... ok
+test_proxy_tunnel_without_status_line (test.test_httplib.BasicTest) ... ok
+test_read_head (test.test_httplib.BasicTest) ... ok
+test_response_headers (test.test_httplib.BasicTest) ... ok
+test_send (test.test_httplib.BasicTest) ... ok
+test_send_file (test.test_httplib.BasicTest) ... ok
+test_send_tempfile (test.test_httplib.BasicTest) ... ok
+test_status_lines (test.test_httplib.BasicTest) ... ok
+test_too_many_headers (test.test_httplib.BasicTest) ... ok
+testTimeoutAttribute (test.test_httplib.TimeoutTest)
+This will prove that the timeout gets through ... ok
+testHTTPConnection (test.test_httplib.HTTPTest) ... ok
+testHTTPWithConnectHostPort (test.test_httplib.HTTPTest) ... ok
+test_attributes (test.test_httplib.HTTPSTest) ... ok
+test_host_port (test.test_httplib.HTTPSTest) ... ok
+test_local_bad_hostname (test.test_httplib.HTTPSTest) ...  server (('127.0.0.1', 62148):62148 ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)):
+   [09/May/2019 01:23:27] code 404, message File not found
+ server (('127.0.0.1', 62148):62148 ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)):
+   [09/May/2019 01:23:27] "GET /nonexistent HTTP/1.1" 404 -
+stopping HTTPS server
+joining HTTPS thread
+ok
+test_local_good_hostname (test.test_httplib.HTTPSTest) ...  server (('127.0.0.1', 62153):62153 ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)):
+   [09/May/2019 01:23:28] code 404, message File not found
+ server (('127.0.0.1', 62153):62153 ('ECDHE-RSA-AES256-GCM-SHA384', 'TLSv1/SSLv3', 256)):
+   [09/May/2019 01:23:28] "GET /nonexistent HTTP/1.1" 404 -
+stopping HTTPS server
+joining HTTPS thread
+ok
+test_local_unknown_cert (test.test_httplib.HTTPSTest) ... stopping HTTPS server
+joining HTTPS thread
+ok
+test_networked (test.test_httplib.HTTPSTest) ... ok
+test_networked_bad_cert (test.test_httplib.HTTPSTest) ... ok
+test_networked_good_cert (test.test_httplib.HTTPSTest) ... ERROR
+test_networked_noverification (test.test_httplib.HTTPSTest) ... ok
+test_networked_trusted_by_default_cert (test.test_httplib.HTTPSTest) ... ok
+testHTTPConnectionSourceAddress (test.test_httplib.SourceAddressTest) ... ok
+testHTTPSConnectionSourceAddress (test.test_httplib.SourceAddressTest) ... ok
+test_connect (test.test_httplib.TunnelTests) ... ok
+
+======================================================================
+ERROR: test_networked_good_cert (test.test_httplib.HTTPSTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_httplib.py", line 867, in test_networked_good_cert
+    h.request('GET', '/')
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 844, in send
+    self.connect()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+----------------------------------------------------------------------
+Ran 51 tests in 5.458s
+
+FAILED (errors=1, skipped=1)
+3 tests failed again:
+    test_httplib test_ssl test_urllibnet
+
+== Tests result: FAILURE then FAILURE ==
+
+358 tests OK.
+
+10 slowest tests:
+- test_bsddb3: 3971.8s
+- test_largefile: 533.3s
+- test_mailbox: 295.3s
+- test_bufio: 281.6s
+- test_mmap: 265.2s
+- test_multiprocessing: 257.9s
+- test_dumbdbm: 142.3s
+- test_lib2to3: 125.0s
+- test_urllib2_localnet: 118.6s
+- test_decimal: 118.4s
+
+3 tests failed:
+    test_httplib test_ssl test_urllibnet
+
+42 tests skipped:
+    test_aepack test_al test_applesingle test_bsddb185 test_cd test_cl
+    test_commands test_crypt test_curses test_dbm test_dl test_epoll
+    test_fcntl test_fork1 test_gdb test_gdbm test_gl test_grp
+    test_imgfile test_ioctl test_kqueue test_linuxaudiodev test_macos
+    test_macostools test_mhlib test_nis test_openpty test_ossaudiodev
+    test_pipes test_poll test_posix test_pty test_pwd test_readline
+    test_resource test_scriptpackages test_spwd test_sunaudiodev
+    test_threadsignals test_wait3 test_wait4 test_zipfile64
+2 skips unexpected on win32:
+    test_gdb test_readline
+
+3 re-run tests:
+    test_httplib test_ssl test_urllibnet
+
+Total duration: 1 hour 22 min
+Tests result: FAILURE then FAILURE
+beginning 6 repetitions
+123456
+test test_httplib failed -- Traceback (most recent call last):
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\test\test_httplib.py", line 867, in test_networked_good_cert
+    h.request('GET', '/')
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 844, in send
+    self.connect()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\httplib.py", line 1263, in connect
+    server_hostname=server_hostname)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 369, in wrap_socket
+    _context=self)
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 599, in __init__
+    self.do_handshake()
+  File "D:\buildarea\2.7.ware-win81-release.refleak\build\lib\ssl.py", line 828, in do_handshake
+    self._sslobj.do_handshake()
+SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:727)
+
+program finished with exit code 2
+elapsedTime=4958.605398
